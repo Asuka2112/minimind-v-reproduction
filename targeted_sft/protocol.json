@@ -1,0 +1,95 @@
+{
+  "experiment": "评测",
+  "frozen_at": "2026-11-17T12:02:10.549502+00:00",
+  "question": "Does changing the Chinese training task mixture improve semantic and short-answer outcomes while preserving visual grounding and text ability?",
+  "inputs": {
+    "base_native_sha256": "37d2450149c1c9d6f72d03780cd71abb04174352ca02f01bfb4a8843cc0892c4",
+    "official_native_sha256": "0d3fee0970c2174d22226de25d273e2f375bda8ed39b8f1673e1519c94264f9e"
+  },
+  "upstream_file_sha256": {
+    "model_minimind.py": "548f1203282dccb3be43227b11463f469b976afbab614df52828bdd246c3786f",
+    "model_vlm.py": "02f175bd2ef75dbf4d5f22f5f9f09234922acca4ebe7340d0dfefa813343baf3",
+    "tokenizer_config.json": "d7cd6a60c9f191c4f9ffec69b2eb289ad2f960366724f328b681ae1e46e4c110",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "siglip2-base-p32-256-ve/preprocessor_config.json": "d14ba2ee3fd816f3de8abaddc31953565128eaf37c73ad4bed32101a98465aff",
+    "siglip2-base-p32-256-ve/model.safetensors": "c1e9cc19ed6704b87353ee00b9ff5d6191886d741898339984364f789c62810d",
+    "siglip2-base-p32-256-ve/config.json": "5ad8dda7d55541c7749f9b1cc43fe8eb8c70d8664588d89f710242ce06b3167e"
+  },
+  "data_manifest_sha256": "5d72a854c8a99bae43cf1bdefd74c8c29e38138617a3e9d1d2def4d796b8c782",
+  "text_regression_sha256": "969e0ef2ae02a6ede6278d97e03b6350bd28622872655777d9ea3fefc37091c1",
+  "code_sha256": {
+    "audit_data.py": "f2a1a6717d81f438fb4dedf298b0d5b7b7eec21719ddda58aa50b7433a5ff95a",
+    "build_data.py": "5d258bdc42d8831de1ba7c6d02956abd29881e28295055a96d2f779faedc24dc",
+    "common.py": "8ad63695299938fc5e80ead413eba91479c5878790ec95c969961749be640723",
+    "evaluate.py": "fad65c589cd0e12c670b73d4b47e07c53b1cb2e1e452102c4e93c6f796e3176b",
+    "freeze_protocol.py": "aac1ceb99c68d35177d6afb3fc13204cd1f18dc8c83436356dddcd6729ead5fd",
+    "metrics.py": "33eb901189eab60601c3911cfe983802b752386b361d68413fda83f8b3d0ddb2",
+    "model_io.py": "b641dd50db41328781ce20b4c53d2d9f3f105ba28a54b7d35364a14ef256d426",
+    "run.py": "85aa24ad5112567c86aa0cac1fe624e4e40a330d1b307e4ab85ccaefb6f77a61",
+    "train.py": "b39fc7d36ca4dae821f0a889070e3a440e58bc60829be1ee5d4a7a2e115655ee"
+  },
+  "training": {
+    "examples_per_arm": 2048,
+    "epochs": 2,
+    "global_batch": 16,
+    "micro_batch": 8,
+    "updates_per_arm": 256,
+    "update_cap": 1000,
+    "lr": 5e-05,
+    "random_seeds": [
+      42,
+      123
+    ],
+    "freeze": "projector + LM first and last layers; vision remains frozen",
+    "precision": "bf16 autocast; FP32 parameters",
+    "optimizer": "AdamW fused, cosine to 10% start lr, clip 1",
+    "number_of_gpus_per_arm": 1,
+    "causal_intervention": "Same source photos and rendered JPEG bytes in the same sorted order. Mixed ordinary mostly-object QAs versus same photos with more count and position QAs. Answers concise in both. Test measures task-mixture intervention bundled across both tasks, no per-factor causal claim.",
+    "task_counts": {
+      "control": {
+        "object": 1344,
+        "color": 288,
+        "count": 208,
+        "position": 208
+      },
+      "targeted": {
+        "object": 544,
+        "count": 608,
+        "color": 288,
+        "position": 608
+      }
+    }
+  },
+  "smoke": {
+    "rows": 32,
+    "steps": 160,
+    "gate": "Teacher-forced exact sequence >=24/32 and answer NLL at most half of before; safe plumbing smoke, not a held-out score."
+  },
+  "eval": {
+    "caps": [
+      192,
+      384
+    ],
+    "default_cap": 192,
+    "decode": "FP32 deterministic greedy. Generate once up to 384 and evaluate prefix through 192 (same deterministic decode sequence). Main acceptance is fixed at 192.",
+    "conditions": [
+      "original",
+      "swapped",
+      "none"
+    ],
+    "swap": "Swap with different answer on the exact same question. Reindex already generated predictions for identical (question, image) inputs; hash validated.",
+    "metrics": "semantic structured aliases + blind spot-check, normalized EM, short compliance independent of correctness (one direct candidate phrase of at most 12 characters), both images correct, original vs swapped original-target and no-image, repetitions, contradictions and potential hallucinations",
+    "text": "100 fixed 3-way Chinese text probes, full candidate average log-likelihood (not greedy); separate report by category and gold NLL.",
+    "semantic_scope": "Deterministic constrained-response parser for annotation-derived captions. Long/ambiguous responses may have unrecognized semantics. A blinded audit will record misparses separately.",
+    "bootstrap": "2000 paired draws over complete two-image pairs, seed 1726."
+  },
+  "gates": {
+    "semantic_target_vs_control_at_least_pp": 5.0,
+    "short_target_vs_control_at_least_pp": 10.0,
+    "image_paired_semantic_gain_ci95_lower_gt_pp": 0.0,
+    "image_gain_definition": "targeted both-images-correct minus control both-images-correct, by image pair. Also report original minus swapped score at original targets.",
+    "text_target_vs_control_min_pp": -2.0,
+    "text_target_vs_base_min_pp": -2.0,
+    "second_seed": "Run seed 123 independent continuation iff seed 42 passes all gates."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-17T11:50:50.390782+00:00",
+  "source_sha256": "712f4026cd0e21b369feddca7334b1e465cb8182b5f298006f3f4f877f926643",
+  "sampling": "uniform unstratified sampling by source row, seed 1726",
+  "source_rows": 2904511,
+  "reviewed_rows": 100,
+  "topic_heuristics": {
+    "description": 17,
+    "other": 76,
+    "color": 3,
+    "count": 2,
+    "position": 2
+  },
+  "cjk_questions": 47,
+  "answers_at_most_16_chars": 0,
+  "answers_over_100_chars": 100,
+  "blank_images": 5,
+  "decode_failures": 0,
+  "placeholder_counts": {
+    "1": 95,
+    "0": 5
+  },
+  "scope": "Topic counts are regex estimates; contact sheets and source text support separate alignment review."
+}

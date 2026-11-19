@@ -1,0 +1,9 @@
+{
+  "selected_cap": 192,
+  "dev_semantic": {
+    "192": 0.475,
+    "384": 0.475
+  },
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "rule": "Choose highest original-image base semantic accuracy on the frozen 80-item dev split. Break ties toward the shorter cap."
+}

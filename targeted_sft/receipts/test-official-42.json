@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-11-17T12:11:21.266746+00:00",
+  "finished_at": "2026-11-17T12:12:02.038993+00:00",
+  "model": "official",
+  "seed": 42,
+  "split": "test",
+  "rows": 1440,
+  "prediction_sha256": "22fa02db3c2d64a6c719717868f07821d3d16c70ac566149dfc1f23ebf3b56de",
+  "checkpoint_sha256": "0d3fee0970c2174d22226de25d273e2f375bda8ed39b8f1673e1519c94264f9e",
+  "protocol_sha256": "b28145e87e5ec210e53894f76758ac2835f394afbf213da4257bbef98e3f225a",
+  "cuda_visible_devices": "2",
+  "text_sha256": "f5c95d3ebb4b8cd89524accb477e41c70fb0b11602ade5e488ae723539155f33"
+}

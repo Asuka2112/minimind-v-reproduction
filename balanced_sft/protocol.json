@@ -1,0 +1,107 @@
+{
+  "experiment": "评测",
+  "frozen_at": "2026-11-17T17:00:06.184864+00:00",
+  "question": "Does balanced visual instruction data help Chinese counting and spatial understanding in a matched continuation?",
+  "inputs": {
+    "base_native_sha256": "0516e8103022d413a3f36b15a1c0c5bb2f88f7e24c31963c96a6d7507b5380b5",
+    "base_previous_arm": "targeted-42"
+  },
+  "code_sha256": {
+    "build_balanced.py": "119250e7c372d404f4ac9b18244992a4fb6db06ca090580aa89fdecba9329101",
+    "common.py": "9e1d20a36e2fab4db03f1623d0ac73ba608d1352b3a6291366055352a35a70a1",
+    "evaluate.py": "bc86fb76d0aa32169db5b733f7c4abae51e4090621b1f642879b5601ae123964",
+    "freeze_protocol.py": "797369c26743e5756fffc258b1b7ebad325ea1d70f5495615bfcced2d5149a91",
+    "metrics.py": "da4e461446511c521e7446b86b0b86c6f960cd7043639c499e41f935d2ff7693",
+    "model_io.py": "b641dd50db41328781ce20b4c53d2d9f3f105ba28a54b7d35364a14ef256d426",
+    "quality.py": "0902fc3e30aa6fb2cfc9f1d749512851b8c5f8e2ad123df35f41a3f1b4a79600",
+    "run.py": "9888d8110b86d669bf7f9ac7947578606e834d6043a6ebcc97aa397496dca50c",
+    "train.py": "d658cff4932e87947ae41ed8fcc7c7378ef2303f2843e669c057e8d4be2ee580"
+  },
+  "prior_source_sha256": {
+    "build_data.py": "5d258bdc42d8831de1ba7c6d02956abd29881e28295055a96d2f779faedc24dc"
+  },
+  "upstream_file_sha256": {
+    "model_minimind.py": "548f1203282dccb3be43227b11463f469b976afbab614df52828bdd246c3786f",
+    "model_vlm.py": "02f175bd2ef75dbf4d5f22f5f9f09234922acca4ebe7340d0dfefa813343baf3",
+    "tokenizer_config.json": "d7cd6a60c9f191c4f9ffec69b2eb289ad2f960366724f328b681ae1e46e4c110",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "siglip2-base-p32-256-ve/config.json": "5ad8dda7d55541c7749f9b1cc43fe8eb8c70d8664588d89f710242ce06b3167e",
+    "siglip2-base-p32-256-ve/model.safetensors": "c1e9cc19ed6704b87353ee00b9ff5d6191886d741898339984364f789c62810d",
+    "siglip2-base-p32-256-ve/preprocessor_config.json": "d14ba2ee3fd816f3de8abaddc31953565128eaf37c73ad4bed32101a98465aff"
+  },
+  "data_manifest_sha256": "2016d0f564d823aa108b4089a8b725965842ab30ff20a95990e095002416659b",
+  "quality_sha256": {
+    "quality.json": "974bc63adc4fbfe8958e001930dfa08cb12b4b249fa296ac67fd4c54b8f037c9",
+    "visual_quality.json": "a248da08dcfa362b2064fb2f7002e152a95665b09ef8445c3ce0c178ed87eebf"
+  },
+  "text_regression_sha256": "969e0ef2ae02a6ede6278d97e03b6350bd28622872655777d9ea3fefc37091c1",
+  "training": {
+    "examples_per_arm": 3200,
+    "epochs": 2,
+    "global_batch": 16,
+    "micro_batch": 8,
+    "updates_per_arm": 400,
+    "update_cap": 1000,
+    "lr": 5e-05,
+    "random_seeds": [
+      42,
+      123
+    ],
+    "freeze": "Projector and first/last LM layers trainable; vision and all other LM parameters frozen.",
+    "precision": "BF16 autocast with FP32 master parameters",
+    "optimizer": "AdamW fused, cosine to 10% start LR, gradient clip 1",
+    "number_of_gpus_per_arm": 1,
+    "task_counts": {
+      "control": {
+        "count": 226,
+        "object": 2054,
+        "position": 160,
+        "color": 760
+      },
+      "targeted": {
+        "count": 960,
+        "object": 800,
+        "position": 800,
+        "color": 640
+      },
+      "challenge": {
+        "count": 120,
+        "position": 120
+      }
+    },
+    "comparison": "Shared rendered image bytes, sample order and hyperparameters. The intervention changes supervision task and answer distribution jointly."
+  },
+  "smoke": {
+    "rows": 32,
+    "steps": 160,
+    "lr": 0.0003,
+    "gate": "Teacher-forced exact >=24/32, and supervised loss <=50% of initial loss."
+  },
+  "eval": {
+    "caps": [
+      192,
+      384
+    ],
+    "decode": "FP32 greedy with shared deterministic prefix",
+    "selection": "Choose highest original-image base semantic accuracy on the frozen 80-item dev split. Break ties toward the shorter cap.",
+    "conditions": [
+      "original",
+      "swapped",
+      "none"
+    ],
+    "swap": "Identical question with its partner image whose gold differs; also score against the partner label.",
+    "primary": "Existing frozen natural-photo test (240), previously measured on the starting checkpoint.",
+    "secondary": "Fresh held-out transformed COCO challenge (240), with zero and 5+ counts, numerical comparison and three spatial axes.",
+    "metrics": "Semantic, normalized EM, short compliance, both images correct, image-condition differences, repetition, contradiction, and heuristic hallucination.",
+    "text": "100 three-way Chinese fixed text probes through candidate mean log likelihood.",
+    "bootstrap": "2000 paired draws over complete pairs, seed 1726."
+  },
+  "gates": {
+    "semantic_min_pp": 5.0,
+    "text_min_pp": -2.0,
+    "paired_semantic_ci95_lower_exclusive_pp": 0.0,
+    "per_task_count_and_position_delta_strictly_positive": true,
+    "both_images_correct_delta_strictly_positive": true,
+    "second_seed": "Train seed 123 only if seed 42 passes all primary gates. Use the same selected decode cap."
+  }
+}

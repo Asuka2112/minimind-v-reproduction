@@ -1,0 +1,864 @@
+{
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "split": "challenge",
+  "seed": 42,
+  "n": 240,
+  "rows": 4320,
+  "models": {
+    "base": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.15416666666666667,
+            "shown_semantic": 0.15416666666666667,
+            "em": 0.15416666666666667,
+            "short": 0.5666666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.14166666666666666,
+              "position": 0.16666666666666666
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.0,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.17708333333333334,
+              "vertical": 0.0
+            }
+          },
+          "swapped": {
+            "semantic": 0.1375,
+            "shown_semantic": 0.15416666666666667,
+            "em": 0.1375,
+            "short": 0.5666666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.10833333333333334,
+              "position": 0.16666666666666666
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.0,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.13541666666666666,
+              "vertical": 0.0
+            }
+          },
+          "none": {
+            "semantic": 0.15,
+            "shown_semantic": 0.15,
+            "em": 0.15,
+            "short": 0.5666666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.13333333333333333,
+              "position": 0.16666666666666666
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.0,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.16666666666666666,
+              "vertical": 0.0
+            }
+          }
+        },
+        "pair_both_correct": 0.008333333333333333,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 1.6666666666666667,
+            "ci95_pp": [
+              -1.25,
+              4.583333333333333
+            ]
+          },
+          "none": {
+            "delta_pp": 0.4166666666666667,
+            "ci95_pp": [
+              -0.8333333333333334,
+              2.083333333333333
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.15416666666666667,
+            "shown_semantic": 0.15416666666666667,
+            "em": 0.15416666666666667,
+            "short": 0.5666666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.14166666666666666,
+              "position": 0.16666666666666666
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.0,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.17708333333333334,
+              "vertical": 0.0
+            }
+          },
+          "swapped": {
+            "semantic": 0.1375,
+            "shown_semantic": 0.15416666666666667,
+            "em": 0.1375,
+            "short": 0.5666666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.10833333333333334,
+              "position": 0.16666666666666666
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.0,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.13541666666666666,
+              "vertical": 0.0
+            }
+          },
+          "none": {
+            "semantic": 0.15,
+            "shown_semantic": 0.15,
+            "em": 0.15,
+            "short": 0.5666666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.13333333333333333,
+              "position": 0.16666666666666666
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.0,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.16666666666666666,
+              "vertical": 0.0
+            }
+          }
+        },
+        "pair_both_correct": 0.008333333333333333,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 1.6666666666666667,
+            "ci95_pp": [
+              -1.25,
+              4.583333333333333
+            ]
+          },
+          "none": {
+            "delta_pp": 0.4166666666666667,
+            "ci95_pp": [
+              -0.8333333333333334,
+              2.083333333333333
+            ]
+          }
+        }
+      }
+    },
+    "control": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.2708333333333333,
+            "shown_semantic": 0.2708333333333333,
+            "em": 0.2708333333333333,
+            "short": 0.8333333333333334,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.2,
+              "position": 0.3416666666666667
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.2916666666666667,
+              "depth": 0.0,
+              "horizontal": 0.525,
+              "number": 0.17708333333333334,
+              "vertical": 0.5
+            }
+          },
+          "swapped": {
+            "semantic": 0.2625,
+            "shown_semantic": 0.2708333333333333,
+            "em": 0.2625,
+            "short": 0.8333333333333334,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.2,
+              "position": 0.325
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.2916666666666667,
+              "depth": 0.0,
+              "horizontal": 0.475,
+              "number": 0.17708333333333334,
+              "vertical": 0.5
+            }
+          },
+          "none": {
+            "semantic": 0.2708333333333333,
+            "shown_semantic": 0.2708333333333333,
+            "em": 0.2708333333333333,
+            "short": 0.8333333333333334,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.20833333333333334,
+              "position": 0.3333333333333333
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.375,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.16666666666666666,
+              "vertical": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.008333333333333333,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 0.8333333333333334,
+            "ci95_pp": [
+              -0.8333333333333334,
+              2.9166666666666665
+            ]
+          },
+          "none": {
+            "delta_pp": 0.0,
+            "ci95_pp": [
+              -1.6666666666666667,
+              1.6666666666666667
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.2708333333333333,
+            "shown_semantic": 0.2708333333333333,
+            "em": 0.2708333333333333,
+            "short": 0.8333333333333334,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.2,
+              "position": 0.3416666666666667
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.2916666666666667,
+              "depth": 0.0,
+              "horizontal": 0.525,
+              "number": 0.17708333333333334,
+              "vertical": 0.5
+            }
+          },
+          "swapped": {
+            "semantic": 0.2625,
+            "shown_semantic": 0.2708333333333333,
+            "em": 0.2625,
+            "short": 0.8333333333333334,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.2,
+              "position": 0.325
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.2916666666666667,
+              "depth": 0.0,
+              "horizontal": 0.475,
+              "number": 0.17708333333333334,
+              "vertical": 0.5
+            }
+          },
+          "none": {
+            "semantic": 0.2708333333333333,
+            "shown_semantic": 0.2708333333333333,
+            "em": 0.2708333333333333,
+            "short": 0.8333333333333334,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.20833333333333334,
+              "position": 0.3333333333333333
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.375,
+              "depth": 0.0,
+              "horizontal": 0.5,
+              "number": 0.16666666666666666,
+              "vertical": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.008333333333333333,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 0.8333333333333334,
+            "ci95_pp": [
+              -0.8333333333333334,
+              2.9166666666666665
+            ]
+          },
+          "none": {
+            "delta_pp": 0.0,
+            "ci95_pp": [
+              -1.6666666666666667,
+              1.6666666666666667
+            ]
+          }
+        }
+      }
+    },
+    "targeted": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.5416666666666666,
+            "shown_semantic": 0.5416666666666666,
+            "em": 0.5416666666666666,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.4666666666666667,
+              "position": 0.6166666666666667
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.375,
+              "depth": 0.775,
+              "horizontal": 0.6,
+              "number": 0.4895833333333333,
+              "vertical": 0.475
+            }
+          },
+          "swapped": {
+            "semantic": 0.3125,
+            "shown_semantic": 0.5416666666666666,
+            "em": 0.3125,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.24166666666666667,
+              "position": 0.38333333333333336
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.3333333333333333,
+              "depth": 0.225,
+              "horizontal": 0.4,
+              "number": 0.21875,
+              "vertical": 0.525
+            }
+          },
+          "none": {
+            "semantic": 0.35,
+            "shown_semantic": 0.35,
+            "em": 0.35,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.2,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.3333333333333333,
+              "depth": 0.5,
+              "horizontal": 0.5,
+              "number": 0.16666666666666666,
+              "vertical": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.20833333333333334,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 22.916666666666664,
+            "ci95_pp": [
+              14.166666666666666,
+              32.083333333333336
+            ]
+          },
+          "none": {
+            "delta_pp": 19.166666666666668,
+            "ci95_pp": [
+              13.750000000000002,
+              25.0
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.5416666666666666,
+            "shown_semantic": 0.5416666666666666,
+            "em": 0.5416666666666666,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.4666666666666667,
+              "position": 0.6166666666666667
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.375,
+              "depth": 0.775,
+              "horizontal": 0.6,
+              "number": 0.4895833333333333,
+              "vertical": 0.475
+            }
+          },
+          "swapped": {
+            "semantic": 0.3125,
+            "shown_semantic": 0.5416666666666666,
+            "em": 0.3125,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.24166666666666667,
+              "position": 0.38333333333333336
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.3333333333333333,
+              "depth": 0.225,
+              "horizontal": 0.4,
+              "number": 0.21875,
+              "vertical": 0.525
+            }
+          },
+          "none": {
+            "semantic": 0.35,
+            "shown_semantic": 0.35,
+            "em": 0.35,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "count": 0.2,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {
+              "comparison": 0.3333333333333333,
+              "depth": 0.5,
+              "horizontal": 0.5,
+              "number": 0.16666666666666666,
+              "vertical": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.20833333333333334,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 22.916666666666664,
+            "ci95_pp": [
+              14.166666666666666,
+              32.083333333333336
+            ]
+          },
+          "none": {
+            "delta_pp": 19.166666666666668,
+            "ci95_pp": [
+              13.750000000000002,
+              25.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  "text": {},
+  "selected_cap": 192,
+  "comparisons": {
+    "targeted_vs_control": {
+      "semantic": {
+        "delta_pp": 27.083333333333332,
+        "ci95_pp": [
+          19.583333333333332,
+          35.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 20.0,
+        "ci95_pp": [
+          12.5,
+          27.500000000000004
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": 16.666666666666664,
+        "ci95_pp": [
+          10.0,
+          23.333333333333332
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "by_task": {
+        "count": {
+          "delta_pp": 26.666666666666668,
+          "ci95_pp": [
+            15.833333333333332,
+            36.666666666666664
+          ],
+          "pairs": 60,
+          "questions": 120
+        },
+        "position": {
+          "delta_pp": 27.500000000000004,
+          "ci95_pp": [
+            16.666666666666664,
+            38.333333333333336
+          ],
+          "pairs": 60,
+          "questions": 120
+        }
+      },
+      "by_subtask": {
+        "comparison": {
+          "delta_pp": 8.333333333333332,
+          "ci95_pp": [
+            -12.5,
+            25.0
+          ],
+          "pairs": 12,
+          "questions": 24
+        },
+        "depth": {
+          "delta_pp": 77.5,
+          "ci95_pp": [
+            67.5,
+            87.5
+          ],
+          "pairs": 20,
+          "questions": 40
+        },
+        "horizontal": {
+          "delta_pp": 7.5,
+          "ci95_pp": [
+            -5.0,
+            20.0
+          ],
+          "pairs": 20,
+          "questions": 40
+        },
+        "number": {
+          "delta_pp": 31.25,
+          "ci95_pp": [
+            19.791666666666664,
+            42.70833333333333
+          ],
+          "pairs": 48,
+          "questions": 96
+        },
+        "vertical": {
+          "delta_pp": -2.5,
+          "ci95_pp": [
+            -7.5,
+            0.0
+          ],
+          "pairs": 20,
+          "questions": 40
+        }
+      }
+    },
+    "targeted_vs_base": {
+      "semantic": {
+        "delta_pp": 38.75,
+        "ci95_pp": [
+          31.666666666666664,
+          45.416666666666664
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 20.0,
+        "ci95_pp": [
+          12.5,
+          27.500000000000004
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": 43.333333333333336,
+        "ci95_pp": [
+          35.0,
+          52.5
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "by_task": {
+        "count": {
+          "delta_pp": 32.5,
+          "ci95_pp": [
+            22.5,
+            42.5
+          ],
+          "pairs": 60,
+          "questions": 120
+        },
+        "position": {
+          "delta_pp": 45.0,
+          "ci95_pp": [
+            35.833333333333336,
+            53.333333333333336
+          ],
+          "pairs": 60,
+          "questions": 120
+        }
+      },
+      "by_subtask": {
+        "comparison": {
+          "delta_pp": 37.5,
+          "ci95_pp": [
+            25.0,
+            50.0
+          ],
+          "pairs": 12,
+          "questions": 24
+        },
+        "depth": {
+          "delta_pp": 77.5,
+          "ci95_pp": [
+            67.5,
+            87.5
+          ],
+          "pairs": 20,
+          "questions": 40
+        },
+        "horizontal": {
+          "delta_pp": 10.0,
+          "ci95_pp": [
+            0.0,
+            22.5
+          ],
+          "pairs": 20,
+          "questions": 40
+        },
+        "number": {
+          "delta_pp": 31.25,
+          "ci95_pp": [
+            18.75,
+            42.70833333333333
+          ],
+          "pairs": 48,
+          "questions": 96
+        },
+        "vertical": {
+          "delta_pp": 47.5,
+          "ci95_pp": [
+            42.5,
+            50.0
+          ],
+          "pairs": 20,
+          "questions": 40
+        }
+      }
+    },
+    "control_vs_base": {
+      "semantic": {
+        "delta_pp": 11.666666666666666,
+        "ci95_pp": [
+          7.916666666666666,
+          15.833333333333332
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 0.0,
+        "ci95_pp": [
+          -2.5,
+          2.5
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": 26.666666666666668,
+        "ci95_pp": [
+          19.166666666666668,
+          35.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "by_task": {
+        "count": {
+          "delta_pp": 5.833333333333333,
+          "ci95_pp": [
+            0.8333333333333334,
+            10.833333333333334
+          ],
+          "pairs": 60,
+          "questions": 120
+        },
+        "position": {
+          "delta_pp": 17.5,
+          "ci95_pp": [
+            11.666666666666666,
+            24.166666666666668
+          ],
+          "pairs": 60,
+          "questions": 120
+        }
+      },
+      "by_subtask": {
+        "comparison": {
+          "delta_pp": 29.166666666666668,
+          "ci95_pp": [
+            16.666666666666664,
+            41.66666666666667
+          ],
+          "pairs": 12,
+          "questions": 24
+        },
+        "depth": {
+          "delta_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 20,
+          "questions": 40
+        },
+        "horizontal": {
+          "delta_pp": 2.5,
+          "ci95_pp": [
+            0.0,
+            7.5
+          ],
+          "pairs": 20,
+          "questions": 40
+        },
+        "number": {
+          "delta_pp": 0.0,
+          "ci95_pp": [
+            -4.166666666666666,
+            4.166666666666666
+          ],
+          "pairs": 48,
+          "questions": 96
+        },
+        "vertical": {
+          "delta_pp": 50.0,
+          "ci95_pp": [
+            50.0,
+            50.0
+          ],
+          "pairs": 20,
+          "questions": 40
+        }
+      }
+    }
+  },
+  "normalized_response_counts": {
+    "base": {
+      "count": {
+        "1": 85,
+        "2": 11,
+        "(unrecognized)": 24
+      },
+      "position": {
+        "左边": 40,
+        "(unrecognized)": 80
+      }
+    },
+    "control": {
+      "count": {
+        "1": 77,
+        "2": 19,
+        "一样多": 22,
+        "更少": 2
+      },
+      "position": {
+        "左边": 39,
+        "右边": 1,
+        "上方": 40,
+        "(unrecognized)": 40
+      }
+    },
+    "targeted": {
+      "count": {
+        "0": 22,
+        "1": 17,
+        "3": 17,
+        "2": 18,
+        "5+": 8,
+        "4": 14,
+        "更少": 21,
+        "一样多": 3
+      },
+      "position": {
+        "右边": 20,
+        "左边": 20,
+        "上方": 39,
+        "下方": 1,
+        "前面": 29,
+        "后面": 11
+      }
+    }
+  }
+}

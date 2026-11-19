@@ -1,0 +1,146 @@
+--- upstream/trainer/train_pretrain_vlm.py
++++ src/trainer/train_pretrain_vlm.py
+@@ -19,6 +19,8 @@
+ from dataset.lm_dataset import VLMDataset
+ from trainer.trainer_utils import get_lr, Logger, is_main_process, init_distributed_mode, setup_seed, init_vlm_model, vlm_checkpoint, SkipBatchSampler, vlm_collate_fn
+ 
++from instrument import mean_scalar
++
+ warnings.filterwarnings('ignore')
+ 
+ 
+@@ -37,6 +39,8 @@
+             loss = res.loss + res.aux_loss
+             loss = loss / args.accumulation_steps
+ 
++        if not torch.isfinite(loss).all():
++            raise FloatingPointError('Non-finite training loss')
+         scaler.scale(loss).backward()
+ 
+         if step % args.accumulation_steps == 0 or step == iters:
+@@ -50,30 +54,34 @@
+ 
+         if step % args.log_interval == 0 or step == iters:
+             spend_time = time.time() - start_time
+-            current_loss = loss.item() * args.accumulation_steps
+-            current_aux_loss = res.aux_loss.item() if res.aux_loss is not None else 0.0
++            current_loss = mean_scalar(loss * args.accumulation_steps)
++            current_aux_loss = mean_scalar(res.aux_loss) if res.aux_loss is not None else 0.0
+             current_logits_loss = current_loss - current_aux_loss
+             current_lr = optimizer.param_groups[-1]['lr']
+             eta_min = spend_time / max(step - start_step, 1) * (iters - step) // 60
+             Logger(f'Epoch:[{epoch + 1}/{args.epochs}]({step}/{iters}), loss: {current_loss:.4f}, logits_loss: {current_logits_loss:.4f}, aux_loss: {current_aux_loss:.4f}, lr: {current_lr:.8f}, epoch_time: {eta_min:.1f}min')
+             if wandb: wandb.log({"loss": current_loss, "logits_loss": current_logits_loss, "aux_loss": current_aux_loss, "learning_rate": current_lr, "epoch_time": eta_min})
+ 
+-        if (step % args.save_interval == 0 or step == iters) and is_main_process():
+-            model.eval()
+-            moe_suffix = '_moe' if vlm_config.use_moe else ''
+-            ckp = f'{args.save_dir}/{args.save_weight}_{vlm_config.hidden_size}{moe_suffix}.pth'
+-            raw_model = model.module if isinstance(model, DistributedDataParallel) else model
+-            raw_model = getattr(raw_model, '_orig_mod', raw_model)
+-            state_dict = raw_model.state_dict()
+-            clean_state_dict = {
+-                key: value for key, value in state_dict.items() if not key.startswith('vision_encoder.')
+-            }
+-            clean_state_dict = {k: v.half().cpu() for k, v in clean_state_dict.items()}  # 半精度保存并移到CPU
+-            torch.save(clean_state_dict, ckp)
+-            vlm_checkpoint(vlm_config, weight=args.save_weight, model=model, optimizer=optimizer, 
+-                         epoch=epoch, step=step, wandb=wandb, save_dir='../checkpoints', scaler=scaler)
+-            model.train()
+-            del state_dict, clean_state_dict
++        if (step % args.save_interval == 0 or step == iters):
++            if dist.is_initialized(): dist.barrier()
++            if is_main_process():
++                model.eval()
++                moe_suffix = '_moe' if vlm_config.use_moe else ''
++                ckp = f'{args.save_dir}/{args.save_weight}_{vlm_config.hidden_size}{moe_suffix}.pth'
++                raw_model = model.module if isinstance(model, DistributedDataParallel) else model
++                raw_model = getattr(raw_model, '_orig_mod', raw_model)
++                state_dict = raw_model.state_dict()
++                clean_state_dict = {
++                    key: value for key, value in state_dict.items() if not key.startswith('vision_encoder.')
++                }
++                clean_state_dict = {k: v.half().cpu() for k, v in clean_state_dict.items()}  # 半精度保存并移到CPU
++                torch.save(clean_state_dict, ckp + '.tmp')
++                os.replace(ckp + '.tmp', ckp)
++                vlm_checkpoint(vlm_config, weight=args.save_weight, model=model, optimizer=optimizer, 
++                             epoch=epoch, step=step, wandb=wandb, save_dir='../checkpoints', scaler=scaler)
++                model.train()
++                del state_dict, clean_state_dict
++            if dist.is_initialized(): dist.barrier()
+ 
+         del input_ids, labels, pixel_values, res, loss
+ 
+--- upstream/trainer/train_sft_vlm.py
++++ src/trainer/train_sft_vlm.py
+@@ -19,6 +19,8 @@
+ from dataset.lm_dataset import VLMDataset
+ from trainer.trainer_utils import get_lr, Logger, is_main_process, init_distributed_mode, setup_seed, init_vlm_model, vlm_checkpoint, SkipBatchSampler, vlm_collate_fn
+ 
++from instrument import mean_scalar
++
+ warnings.filterwarnings('ignore')
+ 
+ 
+@@ -37,6 +39,8 @@
+             loss = res.loss + res.aux_loss
+             loss = loss / args.accumulation_steps
+ 
++        if not torch.isfinite(loss).all():
++            raise FloatingPointError('Non-finite training loss')
+         scaler.scale(loss).backward()
+ 
+         if step % args.accumulation_steps == 0 or step == iters:
+@@ -50,30 +54,34 @@
+ 
+         if step % args.log_interval == 0 or step == iters:
+             spend_time = time.time() - start_time
+-            current_loss = loss.item() * args.accumulation_steps
+-            current_aux_loss = res.aux_loss.item() if res.aux_loss is not None else 0.0
++            current_loss = mean_scalar(loss * args.accumulation_steps)
++            current_aux_loss = mean_scalar(res.aux_loss) if res.aux_loss is not None else 0.0
+             current_logits_loss = current_loss - current_aux_loss
+             current_lr = optimizer.param_groups[-1]['lr']
+             eta_min = spend_time / max(step - start_step, 1) * (iters - step) // 60
+             Logger(f'Epoch:[{epoch + 1}/{args.epochs}]({step}/{iters}), loss: {current_loss:.4f}, logits_loss: {current_logits_loss:.4f}, aux_loss: {current_aux_loss:.4f}, lr: {current_lr:.8f}, epoch_time: {eta_min:.1f}min')
+             if wandb: wandb.log({"loss": current_loss, "logits_loss": current_logits_loss, "aux_loss": current_aux_loss, "learning_rate": current_lr, "epoch_time": eta_min})
+ 
+-        if (step % args.save_interval == 0 or step == iters) and is_main_process():
+-            model.eval()
+-            moe_suffix = '_moe' if vlm_config.use_moe else ''
+-            ckp = f'{args.save_dir}/{args.save_weight}_{vlm_config.hidden_size}{moe_suffix}.pth'
+-            raw_model = model.module if isinstance(model, DistributedDataParallel) else model
+-            raw_model = getattr(raw_model, '_orig_mod', raw_model)
+-            state_dict = raw_model.state_dict()
+-            clean_state_dict = {
+-                key: value for key, value in state_dict.items() if not key.startswith('vision_encoder.')
+-            }
+-            clean_state_dict = {k: v.half().cpu() for k, v in clean_state_dict.items()}  # 半精度保存并移到CPU
+-            torch.save(clean_state_dict, ckp)
+-            vlm_checkpoint(vlm_config, weight=args.save_weight, model=model, optimizer=optimizer, 
+-                         epoch=epoch, step=step, wandb=wandb, save_dir='../checkpoints', scaler=scaler)
+-            model.train()
+-            del state_dict, clean_state_dict
++        if (step % args.save_interval == 0 or step == iters):
++            if dist.is_initialized(): dist.barrier()
++            if is_main_process():
++                model.eval()
++                moe_suffix = '_moe' if vlm_config.use_moe else ''
++                ckp = f'{args.save_dir}/{args.save_weight}_{vlm_config.hidden_size}{moe_suffix}.pth'
++                raw_model = model.module if isinstance(model, DistributedDataParallel) else model
++                raw_model = getattr(raw_model, '_orig_mod', raw_model)
++                state_dict = raw_model.state_dict()
++                clean_state_dict = {
++                    key: value for key, value in state_dict.items() if not key.startswith('vision_encoder.')
++                }
++                clean_state_dict = {k: v.half().cpu() for k, v in clean_state_dict.items()}  # 半精度保存并移到CPU
++                torch.save(clean_state_dict, ckp + '.tmp')
++                os.replace(ckp + '.tmp', ckp)
++                vlm_checkpoint(vlm_config, weight=args.save_weight, model=model, optimizer=optimizer, 
++                             epoch=epoch, step=step, wandb=wandb, save_dir='../checkpoints', scaler=scaler)
++                model.train()
++                del state_dict, clean_state_dict
++            if dist.is_initialized(): dist.barrier()
+ 
+         del input_ids, labels, pixel_values, res, loss
+ 

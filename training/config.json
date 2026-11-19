@@ -1,0 +1,20 @@
+{
+  "source_commit": "041d528e037a8a373c3c8aa7278a3ba3bd26b6dc",
+  "ssh_host": "research-gpu",
+  "remote_root": "/workspace/projects/minimind-v-official-20261102",
+  "python": "/workspace/projects/minimind3-reproduction-20261019/env311/bin/python",
+  "gpus": [2, 3, 4, 5],
+  "seed": 42,
+  "architecture": {"hidden_size": 768, "num_hidden_layers": 8, "use_moe": 0},
+  "resources": {
+    "language": {"repo": "jingyaogong/minimind-3v-pytorch", "revision": "83ae67a06ec29dc1acf2294d8edacbdef12f4013", "file": "llm_768.pth", "sha256": "5b8c49f6c9d965092e651cafeeaeb8705558632b3fd4ac8ab319cbc5a3cbc4a0"},
+    "vision": {"repo": "jingyaogong/siglip2-base-p32-256-ve", "revision": "9465d1dc89db6bc6227c5b6b0e0ca9b940325d62", "sha256": "c1e9cc19ed6704b87353ee00b9ff5d6191886d741898339984364f789c62810d", "existing_path": "/workspace/projects/vlm-alignment-preflight-20261022/weights/siglip2-base-p32-256-ve"},
+    "dataset": {"repo": "jingyaogong/minimind-v_dataset", "revision": "1e279a8b665cb10383451a6af6fd62b9f35bdd79", "pretrain_sha256": "65761f37d1947d54a1d85457ff70938275e4ef58ba5cedcd02463a3a247c93fd", "sft_sha256": "712f4026cd0e21b369feddca7334b1e465cb8182b5f298006f3f4f877f926643", "existing_sft": "/workspace/projects/vlm-baseline-20261026/data/raw/sft_i2t.parquet"}
+  },
+  "stages": [
+    {"name": "pretrain", "script": "train_pretrain_vlm.py", "data": "pretrain_i2t.parquet", "from_weight": "llm", "save_weight": "pretrain_vlm", "freeze_llm": 2, "epochs": 2, "batch_size": 16, "learning_rate": 0.0004, "max_seq_len": 450},
+    {"name": "sft", "script": "train_sft_vlm.py", "data": "sft_i2t.parquet", "from_weight": "pretrain_vlm", "save_weight": "sft_vlm", "freeze_llm": 1, "epochs": 2, "batch_size": 4, "learning_rate": 0.000005, "max_seq_len": 768}
+  ],
+  "common": {"dtype": "bfloat16", "num_workers": 0, "accumulation_steps": 1, "grad_clip": 1.0, "log_interval": 100, "save_interval": 5000, "use_compile": 0},
+  "evaluation": {"decode": "greedy", "max_new_tokens": 128, "images": "upstream dataset/eval_images (6 images)", "type": "qualitative upstream reproduction; not a held-out benchmark"}
+}

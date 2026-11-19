@@ -1,0 +1,248 @@
+{
+  "_id": "66ffff94008ef654647cefd0",
+  "id": "jingyaogong/minimind-v_dataset",
+  "author": "jingyaogong",
+  "sha": "1e279a8b665cb10383451a6af6fd62b9f35bdd79",
+  "lastModified": "2026-04-19T10:57:29.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:visual-question-answering",
+    "language:zh",
+    "language:en",
+    "license:apache-2.0",
+    "size_categories:n<1K",
+    "format:imagefolder",
+    "modality:image",
+    "library:datasets",
+    "library:mlcroissant",
+    "region:us",
+    "multimodal"
+  ],
+  "description": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t\u2160 \u6570\u636e\u96c6\n\t\n\n\u672c\u8f6e\u8bad\u7ec3\u7528\u5230\u7684\u56fe\u6587\u6570\u636e\u5168\u90e8\u6765\u81ea ALLaVA-4V \u7cfb\u5217\u3002\n\u76f8\u6bd4\u4ee5\u5f80\u4ece\u51e0\u4efd LLaVA \u884d\u751f\u96c6\u62fc\u63a5\u5f97\u5230\u7684\u6570\u636e\uff0cALLaVA-4V \u7684\u8d28\u91cf\u66f4\u6574\u9f50\u3001\u4e2d\u82f1\u53cc\u8bed\u539f\u751f\u5bf9\u7167\uff0c\u7ec6\u7c92\u5ea6\u63cf\u8ff0\u4e5f\u66f4\u5145\u5206\u3002\n\u5b83\u7531\u4e24\u4e2a\u5b50\u6e90\u6784\u6210\uff1a\u4e00\u4efd\u662f LAION \u91cc\u6311\u51fa\u6765\u7684\u9ad8\u8d28\u91cf\u56fe\u7247\uff08\u81ea\u7136\u56fe\u50cf\u4e3a\u4e3b\uff09\uff0c\u4e00\u4efd\u662f VFLAN \u6307\u4ee4\u6d41\u91cc\u6311\u51fa\u6765\u7684\u56fe\u7247\uff08\u6587\u6863\u3001\u56fe\u8868\u3001\u5408\u6210\u573a\u666f\u5c45\u591a\uff09\u3002\n\nPretrain\uff08pretrain_i2t.parquet\uff0c\u7ea6 127 \u4e07\u6761 / ~64 \u4e07\u5f20\u552f\u4e00\u56fe\u50cf\uff09\n\nALLaVA-Caption-LAION-4V \u82f1/\u4e2d\uff1a~47\u4e07 + ~44\u4e07\nALLaVA-Caption-VFLAN-4V \u82f1/\u4e2d\uff1a~19\u4e07 + ~17\u4e07\n\u4efb\u52a1\u5f62\u5f0f\u4e3a\"\u8bf7\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\"\u7c7b\u7684\u5355\u8f6e\u957f\u63cf\u8ff0\uff0c\u7528\u4e8e\u8ba9\u6a21\u578b\u5efa\u7acb\u89c6\u89c9 token \u5230\u8bed\u8a00 token \u7684\u57fa\u7840\u5bf9\u9f50\u3002\n\n\nSFT\uff08sft_i2t.parquet\uff0c\u7ea6 290 \u4e07\u6761 / ~65 \u4e07\u5f20\u552f\u4e00\u56fe\u50cf\uff09\n\nALLaVA-Instruct-LAION-4V \u82f1/\u4e2d\uff1a~47\u4e07 + ~47\u4e07\u2026 See the full description on the dataset page: https://huggingface.co/datasets/jingyaogong/minimind-v_dataset.",
+  "downloads": 1237,
+  "likes": 39,
+  "cardData": {
+    "license": "apache-2.0",
+    "task_categories": [
+      "visual-question-answering"
+    ],
+    "language": [
+      "zh",
+      "en"
+    ],
+    "tags": [
+      "multimodal"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "613cdbc6ed05d820eabe89025109e449fe0c7fa3",
+      "size": 2674
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "8bf82a38e914848ddf08e77abf580e5d22581a30",
+      "size": 4396
+    },
+    {
+      "rfilename": "README_en.md",
+      "blobId": "8b6acde0d5036c02b9cd3735fbe35a3a1ab069f5",
+      "size": 4318
+    },
+    {
+      "rfilename": "dataset/eval_images/\u57ce\u5e02\u8f66\u6c34\u9a6c\u9f99-city-traffic.jpg",
+      "blobId": "6e96092d50b3babdf5f6c72c7cbb09463f53f370",
+      "size": 362377,
+      "lfs": {
+        "sha256": "73e90d82fbc5b1cf43b40de782b443f93f43a34e66b8ddebf3146d5dc1f83e00",
+        "size": 362377,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u592a\u7a7a\u5b87\u822a\u5458-Astronaut-Space.jpg",
+      "blobId": "c15ae3c88498dd5534740f65e559ab0bd799dea9",
+      "size": 225233,
+      "lfs": {
+        "sha256": "f466cdafecbdb85d2bad586896db5db3313afe18f9b3505667756cd25b747747",
+        "size": 225233,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u5c0f\u72d7\u7f8e\u5973\u6d77\u8fb9-Dog-Woman-Sea.jpg",
+      "blobId": "bb3e8095e6dc835d3954cf36d217f1b93c6d5953",
+      "size": 130070,
+      "lfs": {
+        "sha256": "ba90d8b8738a44eac70811be5c89f767492b167ad4f6f6c31aa4591837d7e3dc",
+        "size": 130070,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u5f69\u8679\u7011\u5e03-Rainbow-Falls.jpg",
+      "blobId": "b0552fb5e7f2aa6f82a9f22bb9d935a292eb38f6",
+      "size": 229548,
+      "lfs": {
+        "sha256": "1c8b74debaceb2e0bb6171b182084afe49288a0cc8089eb91eac69d067c27b10",
+        "size": 229548,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u6905\u5b50\u8001\u4eba\u770b\u4e66-Chair-Elderly-Reading.jpg",
+      "blobId": "06eb36e0164c18e4d4c7ea6051aa80a6b146cabb",
+      "size": 141805,
+      "lfs": {
+        "sha256": "8fe91a90e837c33230d21cfe7ba5020e71b3ae99ac4c3fbd6d32cb54f51def53",
+        "size": 141805,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u718a\u732b\u8349\u5730-Panda-Grassland.jpg",
+      "blobId": "2920f9cb7993d804515f237ee7ac064690f6c280",
+      "size": 228212,
+      "lfs": {
+        "sha256": "0b7610a881039f0effdbfa46e9bb189132443d3ce2956856e8adf66d1ca22f8c",
+        "size": 228212,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u81ea\u884c\u8f66\u9c9c\u82b1-Bicycle-Flowers.jpg",
+      "blobId": "71f27cdf26252d80d689669af0a1ffd644f82a4c",
+      "size": 341176,
+      "lfs": {
+        "sha256": "44fae0fafcd52c20b9bcaded897facbff00f61019cdd0aea543addf8499ad899",
+        "size": 341176,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "dataset/eval_images/\u821e\u8e48-dance.jpg",
+      "blobId": "0913e18e30f682afb7983fb49ef6bb99b442d8d0",
+      "size": 146904,
+      "lfs": {
+        "sha256": "939e3132c8d3aec81f66f8aa928b476aaa25e00d94f1097f4974e73c913d5d8c",
+        "size": 146904,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/VLM-structure-moe.jpg",
+      "blobId": "cd7cc2e48544bab2b665fc5967702d7aaaacaecb",
+      "size": 176474,
+      "lfs": {
+        "sha256": "132529f1b49bf28dd1a00bb034051c1e6c817b8f78b231ed17755c9abffcdb2e",
+        "size": 176474,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/VLM-structure-moe.png",
+      "blobId": "c7e4e6c0bc303ed36aa1bf2c29b54468352e9bff",
+      "size": 208301,
+      "lfs": {
+        "sha256": "2719fd96c0cf95f53597506f61a3bb3987a729be2b9185d870f3c48bdd405b69",
+        "size": 208301,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/VLM-structure.png",
+      "blobId": "09735b6ef96657378b548091cf4411a8aae785ff",
+      "size": 203165,
+      "lfs": {
+        "sha256": "34f18322f262c61385a36fe836b9366a8c12fc9c450792d2283306676b50701f",
+        "size": 203165,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/llava-structure.png",
+      "blobId": "8c72712a0adc9452ce7907571857d3e497634cd6",
+      "size": 108357,
+      "lfs": {
+        "sha256": "55c0d8f31e91e680326ca6ad7bff900a28ed53576c41836c5746ff4fbb51f22b",
+        "size": 108357,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/logo.png",
+      "blobId": "5a651337228257bd5fb12b0fa620e94a3787b6d2",
+      "size": 703170,
+      "lfs": {
+        "sha256": "12b71f2315b51a65d51e180f32cc86fa8209672b86e737e71f3a202da79c96d3",
+        "size": 703170,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/minimind-v-input.png",
+      "blobId": "6593053d5b4165a08ee6c5dab47f7ac9b6187202",
+      "size": 157460,
+      "lfs": {
+        "sha256": "2f660023f0632860c7584dfd688a704a27dd679fed28b4ca69f916644ef5d3e8",
+        "size": 157460,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/minimind2-v.gif",
+      "blobId": "b474214a5a0e828c2b0b9b1803f5cabb6c5e8e05",
+      "size": 4386864,
+      "lfs": {
+        "sha256": "514ade256b6c963d0cce9dc370863b8116e9fd1d8c5bdd7a74a5dbaad02dba8f",
+        "size": 4386864,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "images/pretrain_loss.png",
+      "blobId": "4e2591d14516c33b11796b961c5d870b210e976f",
+      "size": 69954,
+      "lfs": {
+        "sha256": "3af871aaf6b4a29d187e4d13627177510d2fd9253cacbe25601f2fc27903d13f",
+        "size": 69954,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/sft_loss.png",
+      "blobId": "4b19142de9d0ec61a74eec9fe0a9b2e466b66afd",
+      "size": 66212,
+      "lfs": {
+        "sha256": "81afe2447b8e8237bcb5eac36916cb1d1460b233c36eff53ecbb76ea4269d563",
+        "size": 66212,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "pretrain_i2t.parquet",
+      "blobId": "a8af63421f21e4b5926ae2b8d736adaf6b5e6ad8",
+      "size": 4326415097,
+      "lfs": {
+        "sha256": "65761f37d1947d54a1d85457ff70938275e4ef58ba5cedcd02463a3a247c93fd",
+        "size": 4326415097,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "sft_i2t.parquet",
+      "blobId": "6acc58ac64e9ab4ff044b403e0f769d673e57af6",
+      "size": 4934887104,
+      "lfs": {
+        "sha256": "712f4026cd0e21b369feddca7334b1e465cb8182b5f298006f3f4f877f926643",
+        "size": 4934887104,
+        "pointerSize": 135
+      }
+    }
+  ],
+  "createdAt": "2024-10-04T14:45:40.000Z",
+  "usedStorage": 23240831817
+}

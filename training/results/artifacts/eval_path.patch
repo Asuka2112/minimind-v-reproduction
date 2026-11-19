@@ -1,0 +1,11 @@
+--- upstream/eval_vlm.py
++++ src/eval_vlm.py
+@@ -14,7 +14,7 @@
+     tokenizer = AutoTokenizer.from_pretrained(args.load_from, trust_remote_code=True)
+     if os.path.basename(os.path.normpath(args.load_from)) == 'model':
+         moe_suffix = '_moe' if args.use_moe else ''
+-        ckp = f'./{args.save_dir}/{args.weight}_{args.hidden_size}{moe_suffix}.pth'
++        ckp = os.path.join(args.save_dir, f'{args.weight}_{args.hidden_size}{moe_suffix}.pth')
+         model = MiniMindVLM(
+             VLMConfig(hidden_size=args.hidden_size, num_hidden_layers=args.num_hidden_layers, use_moe=bool(args.use_moe)),
+             vision_model_path="./model/siglip2-base-p32-256-ve"

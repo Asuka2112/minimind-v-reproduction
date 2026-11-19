@@ -1,0 +1,68 @@
+{
+  "at": "2026-11-01T17:47:51.096579+00:00",
+  "datasets": {
+    "pretrain": {
+      "path": "/workspace/projects/minimind-v-official-20261102/data/pretrain_i2t.parquet",
+      "resolved_path": "/workspace/projects/minimind-v-official-20261102/data/pretrain_i2t.parquet",
+      "sha256": "65761f37d1947d54a1d85457ff70938275e4ef58ba5cedcd02463a3a247c93fd",
+      "bytes": 4326415097,
+      "rows": 1274698,
+      "row_groups": 255,
+      "schema": "conversations: string\nimage_bytes: binary",
+      "training_filtering": "none: complete pinned official file"
+    },
+    "sft": {
+      "path": "/workspace/projects/minimind-v-official-20261102/data/sft_i2t.parquet",
+      "resolved_path": "/workspace/projects/vlm-baseline-20261026/data/raw/sft_i2t.parquet",
+      "sha256": "712f4026cd0e21b369feddca7334b1e465cb8182b5f298006f3f4f877f926643",
+      "bytes": 4934887104,
+      "rows": 2904511,
+      "row_groups": 581,
+      "schema": "conversations: large_string\nimage_bytes: large_binary",
+      "training_filtering": "none: complete pinned official file"
+    }
+  },
+  "smoke_checks": [
+    {
+      "row": 0,
+      "target_tokens": 189,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 1,
+      "target_tokens": 143,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 2,
+      "target_tokens": 288,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 3,
+      "target_tokens": 235,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 4,
+      "target_tokens": 97,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 5,
+      "target_tokens": 69,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 6,
+      "target_tokens": 375,
+      "image_marker_tokens": 64
+    },
+    {
+      "row": 7,
+      "target_tokens": 292,
+      "image_marker_tokens": 64
+    }
+  ],
+  "audit_scope": "Full-file SHA256/schema/row counts; eight processed training examples. No claim of exhaustive manual label review."
+}

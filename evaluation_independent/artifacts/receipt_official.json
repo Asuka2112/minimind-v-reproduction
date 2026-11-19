@@ -1,0 +1,67 @@
+{
+  "model": "official",
+  "started_at": "2026-11-02T19:34:04.244319+00:00",
+  "pid": 1546292,
+  "gpu": "3",
+  "weight_sha256": "0d3fee0970c2174d22226de25d273e2f375bda8ed39b8f1673e1519c94264f9e",
+  "protocol_sha256": "b30b6d78471d996a705e97c7fbfb321bbb44a000075e54b5f2224e489c800701",
+  "dtype": "torch.float32",
+  "torch": "2.5.1+cu121",
+  "letter_token_ids": [
+    68,
+    69,
+    70,
+    71
+  ],
+  "parity": [
+    {
+      "condition": "correct",
+      "id": "mmstar-0000",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "correct",
+      "id": "mmstar-0001",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "shuffled",
+      "id": "mmstar-0000",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "shuffled",
+      "id": "mmstar-0001",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "none",
+      "id": "mmstar-0000",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "none",
+      "id": "mmstar-0001",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "text",
+      "id": "text-000",
+      "upstream_greedy_token_equal": true
+    },
+    {
+      "condition": "text",
+      "id": "text-001",
+      "upstream_greedy_token_equal": true
+    }
+  ],
+  "finished_at": "2026-11-02T19:43:32.479639+00:00",
+  "status": "complete",
+  "exit_code": 0,
+  "files": {
+    "official_correct.jsonl": "24a6b1f67aa95ad05d8c27a9cc7943f83799718a6009afca831a766b68d45ffc",
+    "official_none.jsonl": "c3beda30e23c341398a3842b8ba4d8ec4bc4049797120436ded82b40b67a03c2",
+    "official_shuffled.jsonl": "1f7970ca39b7daa393a5c4f0dee523edc5bf18570833871935b106b723f08316",
+    "official_text.jsonl": "83065da80611918ea78cf40d3df7451a08a69ccfa66e53cedfc446dc29c2d6b4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "exit_code": 0,
+  "argv": [
+    "/workspace/projects/minimind3-reproduction-20261019/env311/bin/python",
+    "/workspace/projects/minimind-v-official-20261102/src/eval_vlm.py",
+    "--load_from",
+    "model",
+    "--save_dir",
+    "/workspace/projects/minimind-v-official-20261102/runs/smoke/out",
+    "--weight",
+    "smoke",
+    "--device",
+    "cpu",
+    "--max_new_tokens",
+    "8"
+  ],
+  "scope": "CPU eight-token smoke per upstream demo image; not the final trained-model evaluation"
+}

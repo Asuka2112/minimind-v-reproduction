@@ -1,0 +1,23 @@
+{
+  "endpoint": "/chat",
+  "upload": "passed",
+  "streaming_response": [
+    [
+      {
+        "role": "user",
+        "metadata": null,
+        "content": "这辆车是什么颜色的？请简短回答。",
+        "options": null
+      },
+      {
+        "role": "assistant",
+        "metadata": null,
+        "content": "这张图片中的车辆是一辆黄色的运动汽车，看起来是全尺寸的。 涂装、轮胎颜色和前灯设计与白天的明亮蓝天形成鲜明对比。 汽车的后部具有光滑的表面，没有明显的阴影或高光，这可能表明它是为傍晚活动而设计的，可能是为了在黄昏时分拍摄的。 ",
+        "options": null
+      }
+    ],
+    "",
+    "完成 · 3.6 秒 · MPS"
+  ],
+  "seconds": 6.49
+}

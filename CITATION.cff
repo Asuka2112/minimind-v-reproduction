@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the original MiniMind-V project when using the reproduction."
+title: "MiniMind-V Reproduction and Visual Grounding Evaluation"
+type: software
+authors:
+  - name: "Asuka2112"
+repository-code: "https://github.com/Asuka2112/minimind-v-reproduction"
+version: 1.0.0
+date-released: 2026-11-19
+license: Apache-2.0
+keywords:
+  - vision-language model
+  - visual question answering
+  - paired evaluation
+  - reproducibility
+references:
+  - type: software
+    title: "MiniMind-V"
+    authors:
+      - family-names: Gong
+        given-names: Jingyao
+    repository-code: "https://github.com/jingyaogong/minimind-v"
+    commit: 041d528e037a8a373c3c8aa7278a3ba3bd26b6dc

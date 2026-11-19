@@ -1,0 +1,598 @@
+{
+  "train-natural": [
+    {
+      "id": "obj-0472",
+      "image": "images/obj-0472.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "餐桌",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0113",
+      "image": "images/obj-0113.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "消防栓",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0018",
+      "image": "images/obj-0018.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "长颈鹿",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0627",
+      "image": "images/obj-0627.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "人",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0242",
+      "image": "images/obj-0242.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "人",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0745",
+      "image": "images/obj-0745.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "斑马",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0093",
+      "image": "images/obj-0093.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "书",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0303",
+      "image": "images/obj-0303.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "人",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0162",
+      "image": "images/obj-0162.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "自行车",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0443",
+      "image": "images/obj-0443.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "斑马",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0066",
+      "image": "images/obj-0066.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "自行车",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "obj-0351",
+      "image": "images/obj-0351.jpg",
+      "question": "蓝框标出的主要物体是什么？",
+      "answer": "人",
+      "subtask": "annotated_object"
+    },
+    {
+      "id": "color-0386",
+      "image": "images/color-0386.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "黄色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0631",
+      "image": "images/color-0631.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "白色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0291",
+      "image": "images/color-0291.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "绿色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0112",
+      "image": "images/color-0112.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "红色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0513",
+      "image": "images/color-0513.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "橙色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0623",
+      "image": "images/color-0623.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "白色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0616",
+      "image": "images/color-0616.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "红色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0467",
+      "image": "images/color-0467.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "绿色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0174",
+      "image": "images/color-0174.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "黑色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0572",
+      "image": "images/color-0572.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "蓝色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0519",
+      "image": "images/color-0519.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "白色",
+      "subtask": "marked_color"
+    },
+    {
+      "id": "color-0180",
+      "image": "images/color-0180.jpg",
+      "question": "蓝框标出的图形主要是什么颜色？",
+      "answer": "蓝色",
+      "subtask": "marked_color"
+    }
+  ],
+  "train-count": [
+    {
+      "id": "count-0863",
+      "image": "images/count-0863.jpg",
+      "question": "图里的长颈鹿比笔记本电脑更多、更少，还是一样多？",
+      "answer": "一样多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "count-0896",
+      "image": "images/count-0896.jpg",
+      "question": "图里的火车比公交车更多、更少，还是一样多？",
+      "answer": "一样多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "count-0894",
+      "image": "images/count-0894.jpg",
+      "question": "图里的狗比笔记本电脑更多、更少，还是一样多？",
+      "answer": "更多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "count-0939",
+      "image": "images/count-0939.jpg",
+      "question": "图里的长颈鹿比牛更多、更少，还是一样多？",
+      "answer": "更多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "count-0958",
+      "image": "images/count-0958.jpg",
+      "question": "图里的猫比牛更多、更少，还是一样多？",
+      "answer": "更少",
+      "subtask": "comparison"
+    },
+    {
+      "id": "count-0895",
+      "image": "images/count-0895.jpg",
+      "question": "图里的马比鸟更多、更少，还是一样多？",
+      "answer": "更少",
+      "subtask": "comparison"
+    },
+    {
+      "id": "count-0120",
+      "image": "images/count-0120.jpg",
+      "question": "图里有几个马？5个或更多回答5+。",
+      "answer": "0",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0438",
+      "image": "images/count-0438.jpg",
+      "question": "图里有几个狗？5个或更多回答5+。",
+      "answer": "0",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0169",
+      "image": "images/count-0169.jpg",
+      "question": "图里有几个笔记本电脑？5个或更多回答5+。",
+      "answer": "1",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0277",
+      "image": "images/count-0277.jpg",
+      "question": "图里有几个牛？5个或更多回答5+。",
+      "answer": "1",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0152",
+      "image": "images/count-0152.jpg",
+      "question": "图里有几个公交车？5个或更多回答5+。",
+      "answer": "2",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0188",
+      "image": "images/count-0188.jpg",
+      "question": "图里有几个斑马？5个或更多回答5+。",
+      "answer": "2",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0561",
+      "image": "images/count-0561.jpg",
+      "question": "图里有几个公交车？5个或更多回答5+。",
+      "answer": "3",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0759",
+      "image": "images/count-0759.jpg",
+      "question": "图里有几个马？5个或更多回答5+。",
+      "answer": "3",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0052",
+      "image": "images/count-0052.jpg",
+      "question": "图里有几个牛？5个或更多回答5+。",
+      "answer": "4",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0202",
+      "image": "images/count-0202.jpg",
+      "question": "图里有几个猫？5个或更多回答5+。",
+      "answer": "4",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0557",
+      "image": "images/count-0557.jpg",
+      "question": "图里有几个火车？5个或更多回答5+。",
+      "answer": "5+",
+      "subtask": "number"
+    },
+    {
+      "id": "count-0299",
+      "image": "images/count-0299.jpg",
+      "question": "图里有几个公交车？5个或更多回答5+。",
+      "answer": "5+",
+      "subtask": "number"
+    }
+  ],
+  "train-position": [
+    {
+      "id": "space-depth-0080",
+      "image": "images/space-depth-0080.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "前面",
+      "subtask": "depth"
+    },
+    {
+      "id": "space-depth-0018",
+      "image": "images/space-depth-0018.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "前面",
+      "subtask": "depth"
+    },
+    {
+      "id": "space-depth-0073",
+      "image": "images/space-depth-0073.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "后面",
+      "subtask": "depth"
+    },
+    {
+      "id": "space-depth-0079",
+      "image": "images/space-depth-0079.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "后面",
+      "subtask": "depth"
+    },
+    {
+      "id": "space-horizontal-0351",
+      "image": "images/space-horizontal-0351.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "右边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "space-horizontal-0187",
+      "image": "images/space-horizontal-0187.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "右边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "space-horizontal-0124",
+      "image": "images/space-horizontal-0124.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "左边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "space-horizontal-0078",
+      "image": "images/space-horizontal-0078.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "左边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "space-vertical-0150",
+      "image": "images/space-vertical-0150.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "上方",
+      "subtask": "vertical"
+    },
+    {
+      "id": "space-vertical-0246",
+      "image": "images/space-vertical-0246.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "上方",
+      "subtask": "vertical"
+    },
+    {
+      "id": "space-vertical-0083",
+      "image": "images/space-vertical-0083.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "下方",
+      "subtask": "vertical"
+    },
+    {
+      "id": "space-vertical-0265",
+      "image": "images/space-vertical-0265.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "下方",
+      "subtask": "vertical"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "challenge-comparison-02-0",
+      "image": "images/challenge-comparison-02-0.jpg",
+      "question": "图里的狗比火车更多、更少，还是一样多？",
+      "answer": "一样多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "challenge-comparison-05-0",
+      "image": "images/challenge-comparison-05-0.jpg",
+      "question": "图里的长颈鹿比公交车更多、更少，还是一样多？",
+      "answer": "一样多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "challenge-comparison-00-0",
+      "image": "images/challenge-comparison-00-0.jpg",
+      "question": "图里的公交车比火车更多、更少，还是一样多？",
+      "answer": "更多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "challenge-comparison-03-0",
+      "image": "images/challenge-comparison-03-0.jpg",
+      "question": "图里的笔记本电脑比火车更多、更少，还是一样多？",
+      "answer": "更多",
+      "subtask": "comparison"
+    },
+    {
+      "id": "challenge-comparison-03-1",
+      "image": "images/challenge-comparison-03-1.jpg",
+      "question": "图里的笔记本电脑比火车更多、更少，还是一样多？",
+      "answer": "更少",
+      "subtask": "comparison"
+    },
+    {
+      "id": "challenge-comparison-04-0",
+      "image": "images/challenge-comparison-04-0.jpg",
+      "question": "图里的飞机比汽车更多、更少，还是一样多？",
+      "answer": "更少",
+      "subtask": "comparison"
+    },
+    {
+      "id": "challenge-depth-03-0",
+      "image": "images/challenge-depth-03-0.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "前面",
+      "subtask": "depth"
+    },
+    {
+      "id": "challenge-depth-06-0",
+      "image": "images/challenge-depth-06-0.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "前面",
+      "subtask": "depth"
+    },
+    {
+      "id": "challenge-depth-10-1",
+      "image": "images/challenge-depth-10-1.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "后面",
+      "subtask": "depth"
+    },
+    {
+      "id": "challenge-depth-02-1",
+      "image": "images/challenge-depth-02-1.jpg",
+      "question": "两张卡片互相遮挡。蓝色卡片在红色卡片前面还是后面？",
+      "answer": "后面",
+      "subtask": "depth"
+    },
+    {
+      "id": "challenge-horizontal-17-1",
+      "image": "images/challenge-horizontal-17-1.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "右边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "challenge-horizontal-14-1",
+      "image": "images/challenge-horizontal-14-1.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "右边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "challenge-horizontal-10-0",
+      "image": "images/challenge-horizontal-10-0.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "左边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "challenge-horizontal-19-0",
+      "image": "images/challenge-horizontal-19-0.jpg",
+      "question": "蓝框物体在红框物体的左边还是右边？",
+      "answer": "左边",
+      "subtask": "horizontal"
+    },
+    {
+      "id": "challenge-number-41-1",
+      "image": "images/challenge-number-41-1.jpg",
+      "question": "图里有几个火车？5个或更多回答5+。",
+      "answer": "0",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-30-0",
+      "image": "images/challenge-number-30-0.jpg",
+      "question": "图里有几个公交车？5个或更多回答5+。",
+      "answer": "0",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-00-1",
+      "image": "images/challenge-number-00-1.jpg",
+      "question": "图里有几个火车？5个或更多回答5+。",
+      "answer": "1",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-13-0",
+      "image": "images/challenge-number-13-0.jpg",
+      "question": "图里有几个飞机？5个或更多回答5+。",
+      "answer": "1",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-26-0",
+      "image": "images/challenge-number-26-0.jpg",
+      "question": "图里有几个斑马？5个或更多回答5+。",
+      "answer": "2",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-01-1",
+      "image": "images/challenge-number-01-1.jpg",
+      "question": "图里有几个鸟？5个或更多回答5+。",
+      "answer": "2",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-08-1",
+      "image": "images/challenge-number-08-1.jpg",
+      "question": "图里有几个狗？5个或更多回答5+。",
+      "answer": "3",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-33-0",
+      "image": "images/challenge-number-33-0.jpg",
+      "question": "图里有几个笔记本电脑？5个或更多回答5+。",
+      "answer": "3",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-40-0",
+      "image": "images/challenge-number-40-0.jpg",
+      "question": "图里有几个牛？5个或更多回答5+。",
+      "answer": "4",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-22-0",
+      "image": "images/challenge-number-22-0.jpg",
+      "question": "图里有几个长颈鹿？5个或更多回答5+。",
+      "answer": "4",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-47-0",
+      "image": "images/challenge-number-47-0.jpg",
+      "question": "图里有几个长颈鹿？5个或更多回答5+。",
+      "answer": "5+",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-number-11-0",
+      "image": "images/challenge-number-11-0.jpg",
+      "question": "图里有几个斑马？5个或更多回答5+。",
+      "answer": "5+",
+      "subtask": "number"
+    },
+    {
+      "id": "challenge-vertical-15-0",
+      "image": "images/challenge-vertical-15-0.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "上方",
+      "subtask": "vertical"
+    },
+    {
+      "id": "challenge-vertical-08-0",
+      "image": "images/challenge-vertical-08-0.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "上方",
+      "subtask": "vertical"
+    },
+    {
+      "id": "challenge-vertical-12-1",
+      "image": "images/challenge-vertical-12-1.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "下方",
+      "subtask": "vertical"
+    },
+    {
+      "id": "challenge-vertical-11-1",
+      "image": "images/challenge-vertical-11-1.jpg",
+      "question": "蓝框物体在红框物体的上方还是下方？",
+      "answer": "下方",
+      "subtask": "vertical"
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "name": "评测",
+  "finished_at": "2026-11-17T08:36:47.953478+00:00",
+  "started_at": "2026-11-17T08:24:29.556057+00:00",
+  "protocol_sha256": "11bf4afb6968eb66ce1c27778bcf0e5ffa43139a7af3a10e0b2d6b9415736d41",
+  "prediction_count": 1824,
+  "scores": {
+    "synthetic": {
+      "n": 128,
+      "official/baseline": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.03125,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.03125,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 1.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.96875,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 64,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        }
+      },
+      "official/short": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0234375,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0234375,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 0.5,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.8125,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 64,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        }
+      },
+      "reproduced/baseline": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0234375,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0234375,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 1.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.953125,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 64,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        }
+      },
+      "reproduced/short": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0390625,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0390625,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 0.75,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.984375,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 64,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        }
+      },
+      "prompt_effect_on_original": {
+        "official": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        },
+        "reproduced": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        }
+      },
+      "reproduced_minus_official_on_original": {
+        "baseline": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        },
+        "short": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 64
+        }
+      }
+    },
+    "real_and_mirrored": {
+      "n": 24,
+      "official/baseline": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.041666666666666664,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.041666666666666664,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 1.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.9166666666666666,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 12,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "official/short": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 0.6666666666666666,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 1.0,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 12,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "reproduced/baseline": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 1.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.8333333333333334,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 12,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "reproduced/short": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.16666666666666666,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.16666666666666666,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 0.8333333333333334,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 1.0,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 12,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "prompt_effect_on_original": {
+        "official": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "reproduced": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "reproduced_minus_official_on_original": {
+        "baseline": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "short": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      }
+    },
+    "real_unmodified": {
+      "n": 21,
+      "official/baseline": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.047619047619047616,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.047619047619047616,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 1.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.9523809523809523,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 9,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "official/short": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 0.6666666666666666,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 1.0,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 9,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "reproduced/baseline": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 1.0,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 0.9047619047619048,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 9,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "reproduced/short": {
+        "conditions": {
+          "correct": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.19047619047619047,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "swapped": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": 0.0,
+            "length_cap_rate": 0.19047619047619047,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          },
+          "none": {
+            "normalized_accuracy": 0.0,
+            "displayed_image_accuracy": null,
+            "length_cap_rate": 0.8095238095238095,
+            "by_category": {
+              "位置": 0.0,
+              "物体": 0.0,
+              "计数": 0.0,
+              "颜色": 0.0
+            }
+          }
+        },
+        "answer_changes_on_swap": 1.0,
+        "both_images_correct": 0.0,
+        "both_images_correct_pairs": 9,
+        "correct_minus_swapped": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "correct_minus_none": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "prompt_effect_on_original": {
+        "official": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "reproduced": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      },
+      "reproduced_minus_official_on_original": {
+        "baseline": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        },
+        "short": {
+          "difference_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 12
+        }
+      }
+    }
+  },
+  "review_items": 252,
+  "review_status": "unrated",
+  "prediction_sha256": {
+    "official.jsonl": "591c2727ba71bc796c07d770176369d0aca7763f76d2a3e7e85a79b1831bec2f",
+    "reproduced.jsonl": "20621bccbbb576bdf83d5c188c7d1e8f2a12318c991b4e407204489a795020f6"
+  }
+}

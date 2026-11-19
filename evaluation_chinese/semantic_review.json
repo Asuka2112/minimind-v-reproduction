@@ -1,0 +1,440 @@
+{
+  "rubric": {
+    "scope": "全部21张未变换真实图片的84条原图回答",
+    "assessor": "Codex 单次复核，使用冻结问题与参考答案，评分时隐藏模型和提示标签",
+    "rule": "判为正确需明确给出与图片和参考一致的答案。允许完整句子和同义词。若关键答案错误、含糊未作答、同时给出互相矛盾的答案，计错。无关细节单独标记。每张图若标签不可核实，保留并标为需核查。",
+    "started_before_revealing_model_prompt_key": true
+  },
+  "annotations": [
+    {
+      "review_id": 44,
+      "id": "n-00-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 81,
+      "id": "n-00-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 207,
+      "id": "n-00-0",
+      "verdict": "correct",
+      "note": "大象识别正确，附加黑白羽毛和长脖子等错误特征"
+    },
+    {
+      "review_id": 224,
+      "id": "n-00-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 157,
+      "id": "n-00-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 167,
+      "id": "n-00-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 191,
+      "id": "n-00-1",
+      "verdict": "correct",
+      "note": "马识别正确，误称在水中游动"
+    },
+    {
+      "review_id": 233,
+      "id": "n-00-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 13,
+      "id": "n-01-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 17,
+      "id": "n-01-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 97,
+      "id": "n-01-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 184,
+      "id": "n-01-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 57,
+      "id": "n-01-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 190,
+      "id": "n-01-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 214,
+      "id": "n-01-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 234,
+      "id": "n-01-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 123,
+      "id": "n-02-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 152,
+      "id": "n-02-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 176,
+      "id": "n-02-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 215,
+      "id": "n-02-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 154,
+      "id": "n-02-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 170,
+      "id": "n-02-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 205,
+      "id": "n-02-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 213,
+      "id": "n-02-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 43,
+      "id": "n-03-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 52,
+      "id": "n-03-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 93,
+      "id": "n-03-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 118,
+      "id": "n-03-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 65,
+      "id": "n-03-1",
+      "verdict": "contradictory",
+      "note": "先答灰色，随后说图中看不到天空且颜色无法确定"
+    },
+    {
+      "review_id": 106,
+      "id": "n-03-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 177,
+      "id": "n-03-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 185,
+      "id": "n-03-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 91,
+      "id": "n-04-0",
+      "verdict": "correct",
+      "note": "上衣颜色正确，国籍和身份未经图像证实"
+    },
+    {
+      "review_id": 108,
+      "id": "n-04-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 222,
+      "id": "n-04-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 248,
+      "id": "n-04-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 21,
+      "id": "n-04-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 28,
+      "id": "n-04-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 86,
+      "id": "n-04-1",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 172,
+      "id": "n-04-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 62,
+      "id": "n-05-0",
+      "verdict": "correct",
+      "note": "地面颜色正确，后续否认照片中的积雪"
+    },
+    {
+      "review_id": 77,
+      "id": "n-05-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 79,
+      "id": "n-05-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 230,
+      "id": "n-05-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 98,
+      "id": "n-05-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 111,
+      "id": "n-05-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 146,
+      "id": "n-05-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 216,
+      "id": "n-05-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 114,
+      "id": "n-06-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 130,
+      "id": "n-06-0",
+      "verdict": "correct",
+      "note": "人数正确，后续描述否认可见的座位"
+    },
+    {
+      "review_id": 163,
+      "id": "n-06-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 165,
+      "id": "n-06-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 20,
+      "id": "n-06-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 67,
+      "id": "n-06-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 101,
+      "id": "n-06-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 131,
+      "id": "n-06-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 24,
+      "id": "n-07-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 124,
+      "id": "n-07-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 129,
+      "id": "n-07-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 144,
+      "id": "n-07-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 1,
+      "id": "n-07-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 14,
+      "id": "n-07-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 22,
+      "id": "n-07-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 194,
+      "id": "n-07-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 39,
+      "id": "n-08-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 56,
+      "id": "n-08-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 113,
+      "id": "n-08-0",
+      "verdict": "unanswered_or_ambiguous",
+      "note": "数的是球员，未给触地足球数量"
+    },
+    {
+      "review_id": 171,
+      "id": "n-08-0",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 80,
+      "id": "n-08-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 116,
+      "id": "n-08-1",
+      "verdict": "unanswered_or_ambiguous"
+    },
+    {
+      "review_id": 212,
+      "id": "n-08-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 232,
+      "id": "n-08-1",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 87,
+      "id": "n-09-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 198,
+      "id": "n-09-0",
+      "verdict": "contradictory",
+      "note": "同时给出可能在左侧或右侧"
+    },
+    {
+      "review_id": 203,
+      "id": "n-09-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 236,
+      "id": "n-09-0",
+      "verdict": "correct"
+    },
+    {
+      "review_id": 3,
+      "id": "n-10-0",
+      "verdict": "unanswered_or_ambiguous",
+      "note": "表述的是列车的右边，未明确列车在画面右侧"
+    },
+    {
+      "review_id": 8,
+      "id": "n-10-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 45,
+      "id": "n-10-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 208,
+      "id": "n-10-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 69,
+      "id": "n-11-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 78,
+      "id": "n-11-0",
+      "verdict": "contradictory",
+      "note": "同时说香蕉主要在左侧又推断在右侧"
+    },
+    {
+      "review_id": 94,
+      "id": "n-11-0",
+      "verdict": "incorrect"
+    },
+    {
+      "review_id": 155,
+      "id": "n-11-0",
+      "verdict": "unanswered_or_ambiguous"
+    }
+  ]
+}

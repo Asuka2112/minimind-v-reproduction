@@ -1,0 +1,1514 @@
+[
+  {
+    "review_id": 1,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 2,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 3,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 4,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 5,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 6,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 7,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 8,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 9,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 10,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 11,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 12,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 13,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 14,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 15,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 16,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 17,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 18,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 19,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 20,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 21,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 22,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 23,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 24,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 25,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 26,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 27,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 28,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 29,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 30,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 31,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 32,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 33,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 34,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 35,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 36,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 37,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 38,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 39,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 40,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 41,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 42,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 43,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 44,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 45,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 46,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 47,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 48,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 49,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 50,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 51,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 52,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 53,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 54,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 55,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 56,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 57,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 58,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 59,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 60,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 61,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 62,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 63,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 64,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 65,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 66,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 67,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 68,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 69,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 70,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 71,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 72,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 73,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 74,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 75,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 76,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 77,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 78,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 79,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 80,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 81,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 82,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 83,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 84,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 85,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 86,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 87,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 88,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 89,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 90,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 91,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 92,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 93,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 94,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 95,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 96,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 97,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 98,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 99,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 100,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 101,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 102,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 103,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 104,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 105,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 106,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 107,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 108,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 109,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 110,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 111,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 112,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 113,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 114,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 115,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 116,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 117,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 118,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 119,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 120,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 121,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 122,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 123,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 124,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 125,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 126,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 127,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 128,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 129,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 130,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 131,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 132,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 133,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 134,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 135,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 136,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 137,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 138,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 139,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 140,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 141,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 142,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 143,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 144,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 145,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 146,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 147,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 148,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 149,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 150,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 151,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 152,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 153,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 154,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 155,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 156,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 157,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 158,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 159,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 160,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 161,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 162,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 163,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 164,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 165,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 166,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 167,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 168,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 169,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 170,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 171,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 172,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 173,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 174,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 175,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 176,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 177,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 178,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 179,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 180,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 181,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 182,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 183,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 184,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 185,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 186,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 187,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 188,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 189,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 190,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 191,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 192,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 193,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 194,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 195,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 196,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 197,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 198,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 199,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 200,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 201,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 202,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 203,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 204,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 205,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 206,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 207,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 208,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 209,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 210,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 211,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 212,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 213,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 214,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 215,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 216,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 217,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 218,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 219,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 220,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 221,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 222,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 223,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 224,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 225,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 226,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 227,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 228,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 229,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 230,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "correct"
+  },
+  {
+    "review_id": 231,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 232,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 233,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 234,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 235,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 236,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 237,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 238,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 239,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 240,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 241,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 242,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 243,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 244,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 245,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 246,
+    "model": "reproduced",
+    "prompt": "baseline",
+    "condition": "none"
+  },
+  {
+    "review_id": 247,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 248,
+    "model": "official",
+    "prompt": "short",
+    "condition": "correct"
+  },
+  {
+    "review_id": 249,
+    "model": "reproduced",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 250,
+    "model": "official",
+    "prompt": "short",
+    "condition": "none"
+  },
+  {
+    "review_id": 251,
+    "model": "official",
+    "prompt": "short",
+    "condition": "swapped"
+  },
+  {
+    "review_id": 252,
+    "model": "official",
+    "prompt": "baseline",
+    "condition": "swapped"
+  }
+]

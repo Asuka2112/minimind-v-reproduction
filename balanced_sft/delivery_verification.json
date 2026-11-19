@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-19T12:46:17.475181+00:00",
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "status": "run_artifacts_verified",
+  "split_sizes": {
+    "challenge": 240,
+    "control": 3200,
+    "dev": 80,
+    "targeted": 3200,
+    "test": 240,
+    "text_regression": 100
+  },
+  "formal_seeds": [
+    42
+  ],
+  "selected_cap": 192,
+  "vision_predictions_verified": 9120,
+  "text_predictions_verified": 300,
+  "weight_files_hashed": 0
+}

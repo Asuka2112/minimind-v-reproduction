@@ -1,0 +1,35 @@
+{
+  "scope": "Local exported base checkpoint, two development examples only, not used in official comparisons",
+  "examples": [
+    {
+      "id": "dev-position-00-0",
+      "device": "mps",
+      "tokens": 75,
+      "prediction": "图片中蓝框物体位于红框物体的右边。这可以通过红框物体的左侧的蓝框物体来确定，红框物体的右侧的蓝框物体是红框的。红框物体的左侧的蓝框物体是红框的，而红框物体的右侧的蓝框物体是红框的。",
+      "parsed": {
+        "semantic": true,
+        "em": false,
+        "short": false,
+        "value": "右边",
+        "repetition": false,
+        "contradiction": false,
+        "hallucination_proxy": false
+      }
+    },
+    {
+      "id": "dev-position-00-1",
+      "device": "mps",
+      "tokens": 71,
+      "prediction": "图片中蓝框物体位于红框物体的左边。这可以通过其独特的形状和颜色来确定，比如黑色的圆形物体，白色的圆形物体，以及红框的边缘。红框的边缘是圆形的，而红框的边缘是圆形的，这表明红框是红框的。",
+      "parsed": {
+        "semantic": true,
+        "em": false,
+        "short": false,
+        "value": "左边",
+        "repetition": false,
+        "contradiction": false,
+        "hallucination_proxy": false
+      }
+    }
+  ]
+}

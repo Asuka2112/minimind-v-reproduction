@@ -1,0 +1,53 @@
+{
+  "release": "v1.0.0",
+  "assets": [
+    {
+      "filename": "projector-native.pth",
+      "install_path": "workspace/minimind-v-official-20261102/runs/pretrain/out/pretrain_vlm_768.pth",
+      "bytes": 140052052,
+      "sha256": "f4d6ddf6905aac26d0f8480a786b3994c39a6e4245d39cb7b41249a55bf82df9"
+    },
+    {
+      "filename": "dense-sft-native.pth",
+      "install_path": "workspace/minimind-v-official-20261102/runs/sft/out/sft_vlm_768.pth",
+      "bytes": 140051547,
+      "sha256": "37d2450149c1c9d6f72d03780cd71abb04174352ca02f01bfb4a8843cc0892c4"
+    },
+    {
+      "filename": "projector-model.safetensors",
+      "install_path": "training/results/exports/pretrain/model.safetensors",
+      "bytes": 140030688,
+      "sha256": "e5fbbbaffd84c909332df6e1665b671302faca7fb8731176bd7107517080c68e"
+    },
+    {
+      "filename": "dense-sft-model.safetensors",
+      "install_path": "training/results/exports/sft/model.safetensors",
+      "bytes": 140030688,
+      "sha256": "9013be838396b4fc3aabd33ce56e4c04936e64d196ce22fc0d65f579ca17fc39"
+    },
+    {
+      "filename": "targeted-control-seed42.pth",
+      "install_path": "targeted_sft/weights/control-42.pth",
+      "bytes": 140050163,
+      "sha256": "a1e46d66d3eecdf87997d1bd80a5d3592f15e5baa15fe161fa1da5ae6fd68420"
+    },
+    {
+      "filename": "targeted-directed-seed42.pth",
+      "install_path": "targeted_sft/weights/targeted-42.pth",
+      "bytes": 140050163,
+      "sha256": "0516e8103022d413a3f36b15a1c0c5bb2f88f7e24c31963c96a6d7507b5380b5"
+    },
+    {
+      "filename": "balanced-control-seed42.pth",
+      "install_path": "balanced_sft/weights/control-42.pth",
+      "bytes": 140050163,
+      "sha256": "4636a5c4758bc582eee952c2709e3586cc586446de47eaee84328053efd15df1"
+    },
+    {
+      "filename": "balanced-directed-seed42.pth",
+      "install_path": "balanced_sft/weights/targeted-42.pth",
+      "bytes": 140050163,
+      "sha256": "838ea0f766a65966f510f7d5057fbb7224471d450e4974c2c218aa08beb37142"
+    }
+  ]
+}

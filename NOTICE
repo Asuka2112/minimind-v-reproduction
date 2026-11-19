@@ -1,0 +1,9 @@
+MiniMind-V Reproduction and Visual Grounding Evaluation
+
+This repository includes MiniMind-V source by Jingyao Gong and contributors,
+distributed under Apache License 2.0. Upstream pin:
+https://github.com/jingyaogong/minimind-v/tree/041d528e037a8a373c3c8aa7278a3ba3bd26b6dc
+
+The reproduction adds training and export audits, local MPS/WebUI support,
+benchmark scoring and paired VQA experiments. See docs/provenance.md for
+third-party models, datasets, and asset scope.

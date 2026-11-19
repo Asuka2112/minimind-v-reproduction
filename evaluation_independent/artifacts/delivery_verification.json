@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-02T19:43:36.256636+00:00",
+  "status": "verified",
+  "jobs": 12,
+  "mmstar_predictions": 18000,
+  "text_predictions": 256,
+  "official_parser_parities": 12,
+  "upstream_greedy_token_parities": 32,
+  "summary_sha256": "8424c2b0d56f63d29f428e5c0d3599473df3901d4f33ec7cfed241e6b62ef196",
+  "report_sha256": "67792160d3553d217c5e6e1279b74d741e2b40159793f93f729bbd3c01a5cc1b",
+  "prediction_hashes": {
+    "initial_correct.jsonl": "b60654241c26fe732330c7ee87f7e77f31d294489f375374b985536f03a18cde",
+    "initial_none.jsonl": "18da4323389caf4801fac2c6bf81d617a3401e7fda73e2e36612213d11dc7f24",
+    "initial_shuffled.jsonl": "0fca48fb38cc7a35637f1d1c52385a3937424406d25c23eef76606ebeeab74d2",
+    "initial_text.jsonl": "3801517ed111ee35fd26d64d77ecf0a48277d1ebbf054a8cb6daf160935f5017",
+    "official_correct.jsonl": "24a6b1f67aa95ad05d8c27a9cc7943f83799718a6009afca831a766b68d45ffc",
+    "official_none.jsonl": "c3beda30e23c341398a3842b8ba4d8ec4bc4049797120436ded82b40b67a03c2",
+    "official_shuffled.jsonl": "1f7970ca39b7daa393a5c4f0dee523edc5bf18570833871935b106b723f08316",
+    "official_text.jsonl": "83065da80611918ea78cf40d3df7451a08a69ccfa66e53cedfc446dc29c2d6b4",
+    "pretrain_correct.jsonl": "33a9d4e6b104c1d82de9fea80689d46d2e2756e6adce69f6be6c32a9bea1d396",
+    "pretrain_none.jsonl": "b634d2f764b7f5e19339954cfe9345fbc0f69167fc887842d37991c054ac35c8",
+    "pretrain_shuffled.jsonl": "259b52b4b9bd50a42b32baf80abab46d856737845490341ef9c6652785e1c6f5",
+    "pretrain_text.jsonl": "1fdc75e98fee54e5c89a0064a1e937e57deda77a12c68efe1569dae3aa4fb66d",
+    "sft_correct.jsonl": "c4bf32643255b856b134b42cf20c79fa42227f712b7c9a97f05071eada0fe094",
+    "sft_none.jsonl": "f64ff4ae472f5dae2e982c93da0567fe5083127125141c42205ed19972900ad5",
+    "sft_shuffled.jsonl": "f45a79eb69ff2384ef600d3a534d759e9459e509501fbb6c962cf1bb8bd03657",
+    "sft_text.jsonl": "59cd49cac6132f7a549471a13334c9dd360eb9dda07ba69ba6854278190a672d"
+  }
+}

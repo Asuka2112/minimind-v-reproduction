@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-11-18T01:05:24.207847+08:00",
+  "upstream_commit": "041d528e037a8a373c3c8aa7278a3ba3bd26b6dc",
+  "original_training": {
+    "pretrain": {
+      "dataset_rows": 1274698,
+      "epochs": 2,
+      "adam_updates": 39836,
+      "retained_safetensors_sha256": "e5fbbbaffd84c909332df6e1665b671302faca7fb8731176bd7107517080c68e"
+    },
+    "sft": {
+      "dataset_rows": 2904511,
+      "epochs": 2,
+      "adam_updates": 363064,
+      "retained_safetensors_sha256": "9013be838396b4fc3aabd33ce56e4c04936e64d196ce22fc0d65f579ca17fc39"
+    }
+  },
+  "local_webui_sft": {
+    "checked_at": "2026-11-18T01:04:43.233808+08:00",
+    "device": "mps",
+    "model_sha256": "9013be838396b4fc3aabd33ce56e4c04936e64d196ce22fc0d65f579ca17fc39",
+    "endpoint": "/chat",
+    "status": "完成 · 2.8 秒 · MPS",
+    "image": "dataset/eval_images/image-04-yellow-car.jpg",
+    "question": "这辆车是什么颜色的？请简短回答。",
+    "answer": "这辆车是黄色的，带有黑色装饰和前大灯。它具有明亮的黄色，与车辆的颜色相匹配。汽车的颜色是鲜艳的黄色，与其鲜艳的颜色形成对比。",
+    "elapsed_seconds": 3.37
+  },
+  "local_runtime_sft": {
+    "model": "sft",
+    "device": "mps",
+    "total_parameters": 159647232,
+    "checks": {
+      "image_placeholder_count": 64,
+      "different_images_change_logits": 2.861084461212158,
+      "missing_image_error_propagates": true,
+      "context_limit_error_propagates": true,
+      "cancellation_releases_model": true,
+      "generation_recovers_after_errors_and_cancel": true
+    },
+    "example": {
+      "image": "image-04-yellow-car.jpg",
+      "question": "这辆车是什么颜色的？",
+      "answer": "这辆车的黄色是黑色，这是许多高尔夫球手常穿的特征。它具有流线型设计，前部有明显的进气格栅和后部的圆形前灯，表明它是一款现代化、运动型的跑车。此外，",
+      "seconds": 3.02
+    }
+  },
+  "prediction_records": {
+    "MMStar": 18000,
+    "Chinese_first_diagnostic": 1824,
+    "targeted_sft_prior": 6720
+  },
+  "prior_targeted_sft_gates": {
+    "semantic": false,
+    "short": false,
+    "visual_pair": false,
+    "text": true
+  },
+  "scope": "Retained artifacts verified. Existing PDF and raw metrics remain authoritative for scoring. Local MPS WebUI and runtime were exercised with the original SFT export, and the example responses are qualitative."
+}

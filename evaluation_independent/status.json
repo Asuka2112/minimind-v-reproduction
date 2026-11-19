@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "at": "2026-11-02T19:43:29.416203+00:00",
+  "pid": 1546283,
+  "protocol_sha256": "b30b6d78471d996a705e97c7fbfb321bbb44a000075e54b5f2224e489c800701",
+  "started_at": "2026-11-02T19:33:49.310393+00:00",
+  "workers": {
+    "overlap": 1546288,
+    "initial": 1546289,
+    "pretrain": 1546290,
+    "sft": 1546291,
+    "official": 1546292
+  },
+  "exits": {
+    "overlap": 0,
+    "initial": 0,
+    "pretrain": 0,
+    "sft": 0,
+    "official": 0
+  },
+  "completed_at": "2026-11-02T19:43:36.342392+00:00",
+  "summary_sha256": "8424c2b0d56f63d29f428e5c0d3599473df3901d4f33ec7cfed241e6b62ef196"
+}

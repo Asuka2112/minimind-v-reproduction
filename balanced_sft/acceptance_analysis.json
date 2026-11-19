@@ -1,0 +1,160 @@
+{
+  "checked_at": "2026-11-19T12:48:00.636236+00:00",
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "selected_cap": 192,
+  "splits": {
+    "test": {
+      "recomputed_targeted_vs_control": {
+        "semantic": {
+          "delta_pp": 0.0,
+          "ci95_pp": [
+            -5.0,
+            5.0
+          ],
+          "pairs": 120,
+          "questions": 240
+        },
+        "pair": {
+          "delta_pp": 2.5,
+          "ci95_pp": [
+            -5.833333333333333,
+            10.0
+          ],
+          "pairs": 120,
+          "questions": 240
+        },
+        "short": {
+          "delta_pp": 2.083333333333333,
+          "ci95_pp": [
+            0.0,
+            4.166666666666666
+          ],
+          "pairs": 120,
+          "questions": 240
+        }
+      },
+      "blind": {
+        "targeted": {
+          "n": 32,
+          "reference_correct": 13,
+          "parser_agreement": 32,
+          "ambiguous": 9,
+          "plausible_alternate": 1,
+          "repetition": 0,
+          "contradiction": 0,
+          "extra_hallucination": 0
+        },
+        "base": {
+          "n": 32,
+          "reference_correct": 10,
+          "parser_agreement": 32,
+          "ambiguous": 9,
+          "plausible_alternate": 1,
+          "repetition": 0,
+          "contradiction": 0,
+          "extra_hallucination": 0
+        },
+        "control": {
+          "n": 32,
+          "reference_correct": 11,
+          "parser_agreement": 32,
+          "ambiguous": 9,
+          "plausible_alternate": 1,
+          "repetition": 0,
+          "contradiction": 0,
+          "extra_hallucination": 0
+        }
+      },
+      "semantic_changes_at_other_cap": {
+        "base": 0,
+        "control": 0,
+        "targeted": 0
+      },
+      "excluding_ambiguous_pairs": {
+        "delta_pp": -0.8849557522123894,
+        "ci95_pp": [
+          -5.752212389380531,
+          3.982300884955752
+        ],
+        "pairs": 113,
+        "questions": 226
+      },
+      "gates": {
+        "semantic": false,
+        "paired_semantic_ci": false,
+        "count_and_position": false,
+        "both_images_correct": true,
+        "text": true
+      }
+    },
+    "challenge": {
+      "recomputed_targeted_vs_control": {
+        "semantic": {
+          "delta_pp": 27.083333333333332,
+          "ci95_pp": [
+            19.583333333333332,
+            35.0
+          ],
+          "pairs": 120,
+          "questions": 240
+        },
+        "pair": {
+          "delta_pp": 20.0,
+          "ci95_pp": [
+            12.5,
+            27.500000000000004
+          ],
+          "pairs": 120,
+          "questions": 240
+        },
+        "short": {
+          "delta_pp": 16.666666666666664,
+          "ci95_pp": [
+            10.0,
+            23.333333333333332
+          ],
+          "pairs": 120,
+          "questions": 240
+        }
+      },
+      "blind": {
+        "control": {
+          "n": 12,
+          "reference_correct": 5,
+          "parser_agreement": 12,
+          "ambiguous": 0,
+          "plausible_alternate": 0,
+          "repetition": 0,
+          "contradiction": 0,
+          "extra_hallucination": 0
+        },
+        "targeted": {
+          "n": 12,
+          "reference_correct": 7,
+          "parser_agreement": 12,
+          "ambiguous": 0,
+          "plausible_alternate": 0,
+          "repetition": 0,
+          "contradiction": 0,
+          "extra_hallucination": 0
+        },
+        "base": {
+          "n": 12,
+          "reference_correct": 3,
+          "parser_agreement": 12,
+          "ambiguous": 0,
+          "plausible_alternate": 0,
+          "repetition": 0,
+          "contradiction": 0,
+          "extra_hallucination": 0
+        }
+      },
+      "semantic_changes_at_other_cap": {
+        "base": 0,
+        "control": 0,
+        "targeted": 0
+      }
+    }
+  },
+  "blind_scope": "One reviewer checked reference correctness, answer contradictions, repetition, and verifiable extra statements before unmasking. Main scores use the fixed rule; flagged image pairs affect sensitivity only."
+}

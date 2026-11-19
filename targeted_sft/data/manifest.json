@@ -1,0 +1,61 @@
+{
+  "source": "COCO val2017 photographs, repacked validation images and underlying official instance annotations",
+  "mirrors": {
+    "images": "detection-datasets/coco@cf0b22332314a937e9dc8a1957b21725430bb41d",
+    "annotations": "merve/coco@9e50abcdc1361852f34841af4939cbcd2d37c92f"
+  },
+  "source_sha256": {
+    "val0.parquet": "dc7a465827eab75e825eb38c9993e6b04fcf918fc2f034504d5760aedfa71d7c",
+    "val1.parquet": "fa7fcf60b688c5555b92778ca9654da9400c72d1612b09f3a094a18266e8d859",
+    "instances.json": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f"
+  },
+  "visual_preflight_rejects": {
+    "353970": "椅子框内猫更显眼，主体指代不够清楚",
+    "541634": "整张餐桌占框，食物和桌面颜色容易混淆",
+    "172877": "蓝框边缘处棕黄椅背，主色界限不清",
+    "144784": "人物只剩局部肢体，计数语义含糊",
+    "473974": "多只斑马严重遮挡，低分辨率下数量难以核验"
+  },
+  "rows_from_validation_shards": 4952,
+  "eligible_photos": 3204,
+  "exclusions": {
+    "prior_near": 1367,
+    "not_eligible": 376,
+    "visual_preflight_rejected": 5
+  },
+  "previous_overlap_scope": "Decoded RGB exact and dHash distance <=3 against existing complete-A/B training image index. The previous full-coverage audit proved both original training Parquets use encoded images present in that index. Resized/cropped and earlier foundation data contamination remain possible.",
+  "in_round_overlap": "Distinct image IDs, exact decoded RGB hashes, and direct dHash <=3 filtered before splitting. Control/targeted train use exactly the same image sequence.",
+  "splits": {
+    "test": {
+      "count": 60,
+      "color": 60,
+      "position": 60,
+      "object": 60
+    },
+    "dev": {
+      "count": 20,
+      "color": 20,
+      "position": 20,
+      "object": 20
+    },
+    "control": {
+      "object": 1344,
+      "color": 288,
+      "count": 208,
+      "position": 208
+    },
+    "targeted": {
+      "object": 544,
+      "count": 608,
+      "color": 288,
+      "position": 608
+    }
+  },
+  "files": {
+    "control.jsonl": "24b650d6f21b7f3790ea9bca155c76f6473cb25a165a822ede060face3cb4ba5",
+    "targeted.jsonl": "3c3dddad6693b2fcb799b615e76406d3f15c41618b581583f10c5ea705c28db3",
+    "dev.jsonl": "48059e6b3a563e8f9a726208aeb3f985fe2e2b81cbad9759dfe9fd88b2eb3cd3",
+    "test.jsonl": "d27a4f8c2c4646f4ae24469430f8addf288d24147799c1548b5e5c41a15f5e9c"
+  },
+  "rendering": "Real COCO photos letterboxed with reference boxes; custom annotation-derived benchmark, not standard COCO scores. Count targets all visible instances of named class. Color gold from dominant object mask; procedural candidates need spot review."
+}

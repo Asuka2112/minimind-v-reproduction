@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-11-17T17:34:06.648382+00:00",
+  "finished_at": "2026-11-17T17:34:10.644923+00:00",
+  "model": "targeted",
+  "seed": 42,
+  "split": "challenge",
+  "rows": 1440,
+  "prediction_sha256": "84fb40f1813c79b11b1632f8723db6702b0ac1bf1f240f9c1891a40cc05cea0f",
+  "checkpoint_sha256": "838ea0f766a65966f510f7d5057fbb7224471d450e4974c2c218aa08beb37142",
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "cuda_visible_devices": "0",
+  "text_sha256": "43f66823481cdbc222a712e5ebc7681c650225ebe7add6ad1ccc6fc02afb7cef"
+}

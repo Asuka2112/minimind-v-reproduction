@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-02T19:35:14.616093+00:00",
+  "status": "verified",
+  "protocol_sha256": "b30b6d78471d996a705e97c7fbfb321bbb44a000075e54b5f2224e489c800701",
+  "source_files_unchanged": {
+    "/workspace/projects/minimind-v-official-20261102/src/model/__init__.py": true,
+    "/workspace/projects/minimind-v-official-20261102/src/model/model_minimind.py": true,
+    "/workspace/projects/minimind-v-official-20261102/src/model/model_vlm.py": true,
+    "/workspace/projects/minimind-v-official-20261102/src/model/tokenizer.json": true,
+    "/workspace/projects/minimind-v-official-20261102/src/model/tokenizer_config.json": true
+  },
+  "evaluation_code_unchanged": {
+    "aggregate.py": true,
+    "audit_overlap.py": true,
+    "common.py": true,
+    "controller.py": true,
+    "evaluate.py": true,
+    "prepare.py": true,
+    "reference_mmstar.py": true
+  },
+  "gpu": "0, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n1, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n2, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n3, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n4, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n5, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n6, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n7, NVIDIA GeForce RTX 4090, 550.144.03, 24564 MiB\n"
+}

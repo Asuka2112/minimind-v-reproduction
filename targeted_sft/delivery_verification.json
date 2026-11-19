@@ -1,0 +1,35 @@
+{
+  "status": "verified",
+  "at": "2026-11-17T13:14:04.272398+00:00",
+  "protocol_sha256": "b28145e87e5ec210e53894f76758ac2835f394afbf213da4257bbef98e3f225a",
+  "vision_predictions_checked": 6720,
+  "train_size_per_arm": 2048,
+  "switched_questions": 800,
+  "dev": 80,
+  "test": 240,
+  "local_token_decodes": 6720,
+  "text_regression_model_records": 400,
+  "smoke_before": {
+    "nll": 6.388672987620036,
+    "teacher_forced_exact_examples": 0,
+    "n": 32
+  },
+  "smoke_after": {
+    "nll": 1.8464930917616584e-06,
+    "teacher_forced_exact_examples": 32,
+    "n": 32
+  },
+  "seeds": [
+    {
+      "seed": 42,
+      "gates": {
+        "semantic": false,
+        "short": false,
+        "visual_pair": false,
+        "text": true
+      },
+      "all_gates": false
+    }
+  ],
+  "scope": "Checks provenance and deterministic prediction relations. Semantic annotation is recorded separately."
+}

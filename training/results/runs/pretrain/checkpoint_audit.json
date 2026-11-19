@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "at": "2026-11-01T19:22:56.652581+00:00",
+  "stage": "pretrain",
+  "resume_sha256": "acbbdec4f40fcd94e75e9b4adf661f0e4fe21317ada75df4dab100db7c4503b0",
+  "epoch": 1,
+  "step_in_epoch": 19918,
+  "adam_step_min": 39836,
+  "adam_step_max": 39836,
+  "optimizer_parameter_states": 6,
+  "changed_trainable_tensors": [
+    "vision_proj.mlp.0.weight",
+    "vision_proj.mlp.0.bias",
+    "vision_proj.mlp.1.weight",
+    "vision_proj.mlp.1.bias",
+    "vision_proj.mlp.3.weight",
+    "vision_proj.mlp.3.bias"
+  ],
+  "changed_frozen_tensors": [],
+  "trainable_parameters": 1182720,
+  "resume_limit": "Native epoch/step/model/optimizer/scaler restored. Upstream worker/augmentation RNG is not serialized; not bitwise-continuation evidence."
+}

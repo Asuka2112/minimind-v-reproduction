@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-01T19:23:15.371102+00:00",
+  "argv": [
+    "/workspace/projects/minimind3-reproduction-20261019/env311/bin/python",
+    "/workspace/projects/minimind-v-official-20261102/training/verify_and_evaluate.py",
+    "--evaluate",
+    "--label",
+    "pretrain",
+    "--weight",
+    "/workspace/projects/minimind-v-official-20261102/runs/pretrain/out/pretrain_vlm_768.pth"
+  ],
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "seconds": 13.241092845797539,
+  "log": "/workspace/projects/minimind-v-official-20261102/logs/evaluate-pretrain.log"
+}

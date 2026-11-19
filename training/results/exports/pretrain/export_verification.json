@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-01T19:23:00.588317+00:00",
+  "status": "verified",
+  "stage": "pretrain",
+  "format": "upstream Transformers .bin FP16 plus safetensors",
+  "native_weight_sha256": "f4d6ddf6905aac26d0f8480a786b3994c39a6e4245d39cb7b41249a55bf82df9",
+  "export_weight_sha256": "773d24f09f4274d7c8465dd4baf128ad2a7ab6f151029ee80982390e9eee4014",
+  "safetensors_sha256": "e5fbbbaffd84c909332df6e1665b671302faca7fb8731176bd7107517080c68e",
+  "persistent_state_equal": true,
+  "image_prefill_max_abs_logit_delta": 0.0,
+  "parity_scope": "Full persistent tensors plus one image prefill against FP16 native artifact reloaded in FP32; not equivalence to full-precision training checkpoint.",
+  "loader": "Attach the pinned external SigLIP encoder and reconstruct FP32 nonpersistent RoPE. local_runtime.py does this through local model construction."
+}

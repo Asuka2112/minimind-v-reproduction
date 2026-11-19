@@ -1,0 +1,523 @@
+{
+  "protocol_sha256": "b28145e87e5ec210e53894f76758ac2835f394afbf213da4257bbef98e3f225a",
+  "split": "test",
+  "seed": 42,
+  "n": 240,
+  "rows": 5760,
+  "models": {
+    "base": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.25416666666666665,
+            "shown_semantic": 0.25416666666666665,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.35,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.26666666666666666,
+            "hit_length_cap": 0.125,
+            "semantic_by_task": {
+              "color": 0.31666666666666665,
+              "count": 0.016666666666666666,
+              "object": 0.2833333333333333,
+              "position": 0.4
+            }
+          },
+          "swapped": {
+            "semantic": 0.11666666666666667,
+            "shown_semantic": 0.25416666666666665,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.35,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.4041666666666667,
+            "hit_length_cap": 0.125,
+            "semantic_by_task": {
+              "color": 0.05,
+              "count": 0.016666666666666666,
+              "object": 0.016666666666666666,
+              "position": 0.38333333333333336
+            }
+          },
+          "none": {
+            "semantic": 0.03333333333333333,
+            "shown_semantic": 0.03333333333333333,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.2833333333333333,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.21666666666666667,
+            "hit_length_cap": 0.5,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.0,
+              "object": 0.0,
+              "position": 0.0
+            }
+          }
+        },
+        "pair_both_correct": 0.06666666666666667,
+        "pair_count": 120
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.25416666666666665,
+            "shown_semantic": 0.25416666666666665,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.35,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.26666666666666666,
+            "hit_length_cap": 0.09583333333333334,
+            "semantic_by_task": {
+              "color": 0.31666666666666665,
+              "count": 0.016666666666666666,
+              "object": 0.2833333333333333,
+              "position": 0.4
+            }
+          },
+          "swapped": {
+            "semantic": 0.11666666666666667,
+            "shown_semantic": 0.25416666666666665,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.35,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.4041666666666667,
+            "hit_length_cap": 0.09583333333333334,
+            "semantic_by_task": {
+              "color": 0.05,
+              "count": 0.016666666666666666,
+              "object": 0.016666666666666666,
+              "position": 0.38333333333333336
+            }
+          },
+          "none": {
+            "semantic": 0.03333333333333333,
+            "shown_semantic": 0.03333333333333333,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.5,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.21666666666666667,
+            "hit_length_cap": 0.5,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.0,
+              "object": 0.0,
+              "position": 0.0
+            }
+          }
+        },
+        "pair_both_correct": 0.06666666666666667,
+        "pair_count": 120
+      }
+    },
+    "official": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.23333333333333334,
+            "shown_semantic": 0.23333333333333334,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.25,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.24166666666666667,
+            "hit_length_cap": 0.016666666666666666,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.016666666666666666,
+              "object": 0.3333333333333333,
+              "position": 0.21666666666666667
+            }
+          },
+          "swapped": {
+            "semantic": 0.09166666666666666,
+            "shown_semantic": 0.23333333333333334,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.25,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.37916666666666665,
+            "hit_length_cap": 0.016666666666666666,
+            "semantic_by_task": {
+              "color": 0.05,
+              "count": 0.016666666666666666,
+              "object": 0.0,
+              "position": 0.3
+            }
+          },
+          "none": {
+            "semantic": 0.15833333333333333,
+            "shown_semantic": 0.15833333333333333,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.9666666666666667,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.3416666666666667,
+            "hit_length_cap": 0.7416666666666667,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.0,
+              "object": 0.0,
+              "position": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.06666666666666667,
+        "pair_count": 120
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.23333333333333334,
+            "shown_semantic": 0.23333333333333334,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.25,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.24166666666666667,
+            "hit_length_cap": 0.008333333333333333,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.016666666666666666,
+              "object": 0.3333333333333333,
+              "position": 0.21666666666666667
+            }
+          },
+          "swapped": {
+            "semantic": 0.09166666666666666,
+            "shown_semantic": 0.23333333333333334,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.25,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.37916666666666665,
+            "hit_length_cap": 0.008333333333333333,
+            "semantic_by_task": {
+              "color": 0.05,
+              "count": 0.016666666666666666,
+              "object": 0.0,
+              "position": 0.3
+            }
+          },
+          "none": {
+            "semantic": 0.15833333333333333,
+            "shown_semantic": 0.15833333333333333,
+            "em": 0.0,
+            "short": 0.0,
+            "repetition": 0.9916666666666667,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.3416666666666667,
+            "hit_length_cap": 0.49166666666666664,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.0,
+              "object": 0.0,
+              "position": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.06666666666666667,
+        "pair_count": 120
+      }
+    },
+    "control": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.42083333333333334,
+            "shown_semantic": 0.42083333333333334,
+            "em": 0.42083333333333334,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.21666666666666667,
+              "object": 0.5666666666666667,
+              "position": 0.5333333333333333
+            }
+          },
+          "swapped": {
+            "semantic": 0.19166666666666668,
+            "shown_semantic": 0.42083333333333334,
+            "em": 0.19166666666666668,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.15,
+              "object": 0.016666666666666666,
+              "position": 0.4666666666666667
+            }
+          },
+          "none": {
+            "semantic": 0.22083333333333333,
+            "shown_semantic": 0.22083333333333333,
+            "em": 0.22083333333333333,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.14166666666666666,
+        "pair_count": 120
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.42083333333333334,
+            "shown_semantic": 0.42083333333333334,
+            "em": 0.42083333333333334,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.21666666666666667,
+              "object": 0.5666666666666667,
+              "position": 0.5333333333333333
+            }
+          },
+          "swapped": {
+            "semantic": 0.19166666666666668,
+            "shown_semantic": 0.42083333333333334,
+            "em": 0.19166666666666668,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.15,
+              "object": 0.016666666666666666,
+              "position": 0.4666666666666667
+            }
+          },
+          "none": {
+            "semantic": 0.22083333333333333,
+            "shown_semantic": 0.22083333333333333,
+            "em": 0.22083333333333333,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.14166666666666666,
+        "pair_count": 120
+      }
+    },
+    "targeted": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.43333333333333335,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.43333333333333335,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.21666666666666667,
+              "object": 0.65,
+              "position": 0.5
+            }
+          },
+          "swapped": {
+            "semantic": 0.2125,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.2125,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.18333333333333332,
+              "object": 0.03333333333333333,
+              "position": 0.5
+            }
+          },
+          "none": {
+            "semantic": 0.22083333333333333,
+            "shown_semantic": 0.22083333333333333,
+            "em": 0.22083333333333333,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.16666666666666666,
+        "pair_count": 120
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.43333333333333335,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.43333333333333335,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.21666666666666667,
+              "object": 0.65,
+              "position": 0.5
+            }
+          },
+          "swapped": {
+            "semantic": 0.2125,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.2125,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.18333333333333332,
+              "object": 0.03333333333333333,
+              "position": 0.5
+            }
+          },
+          "none": {
+            "semantic": 0.22083333333333333,
+            "shown_semantic": 0.22083333333333333,
+            "em": 0.22083333333333333,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            }
+          }
+        },
+        "pair_both_correct": 0.16666666666666666,
+        "pair_count": 120
+      }
+    }
+  },
+  "text": {
+    "base": {
+      "n": 100,
+      "accuracy": 0.34,
+      "gold_nll_per_token": 9.668406524658202,
+      "accuracy_by_task": {
+        "category": 0.45,
+        "count": 0.16666666666666666,
+        "retrieval": 0.4
+      }
+    },
+    "official": {
+      "n": 100,
+      "accuracy": 0.34,
+      "gold_nll_per_token": 9.609974118471145,
+      "accuracy_by_task": {
+        "category": 0.45,
+        "count": 0.26666666666666666,
+        "retrieval": 0.34
+      }
+    },
+    "control": {
+      "n": 100,
+      "accuracy": 0.42,
+      "gold_nll_per_token": 4.427458147481084,
+      "accuracy_by_task": {
+        "category": 0.7,
+        "count": 0.26666666666666666,
+        "retrieval": 0.4
+      }
+    },
+    "targeted": {
+      "n": 100,
+      "accuracy": 0.42,
+      "gold_nll_per_token": 5.391646498590708,
+      "accuracy_by_task": {
+        "category": 0.7,
+        "count": 0.26666666666666666,
+        "retrieval": 0.4
+      }
+    }
+  },
+  "comparisons": {
+    "semantic": {
+      "delta_pp": 1.25,
+      "ci95_pp": [
+        -2.083333333333333,
+        5.0
+      ]
+    },
+    "short": {
+      "delta_pp": -0.8333333333333334,
+      "ci95_pp": [
+        -2.083333333333333,
+        0.0
+      ]
+    },
+    "both_images_correct": {
+      "delta_pp": 2.5,
+      "ci95_pp": [
+        -2.520833333333332,
+        8.333333333333332
+      ]
+    },
+    "text_vs_control_pp": 0.0,
+    "text_vs_base_pp": 7.9999999999999964
+  },
+  "gates": {
+    "semantic": false,
+    "short": false,
+    "visual_pair": false,
+    "text": true
+  },
+  "all_gates": false
+}

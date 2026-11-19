@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-02T19:45:42.828984+00:00",
+  "status": "complete",
+  "files": {
+    "结论与解读.md": "bedf04d6bcbbd9b4c295b544b57883c04822a6e1909ea1d4c00a804fbd5992ee",
+    "REPORT.md": "67792160d3553d217c5e6e1279b74d741e2b40159793f93f729bbd3c01a5cc1b",
+    "summary.json": "8424c2b0d56f63d29f428e5c0d3599473df3901d4f33ec7cfed241e6b62ef196",
+    "protocol.json": "b30b6d78471d996a705e97c7fbfb321bbb44a000075e54b5f2224e489c800701",
+    "简历表述.md": "407876b2a9a2c6f1620acdf7541e5eafe1879bffcdf99937e574e6a981d35694",
+    "figures/evaluation.png": "a05f461ab2b044d1a960e0e2799f43fd260523e232fb604b4d628300754a5569",
+    "figures/evaluation.pdf": "883101615d4599649692da4a2467f0ec20a11bf8ed1b402cc3b0f775841c5c48",
+    "artifacts/local_verification.json": "d0f73ac8088f2ded0acb06fae86f046d1555fb3afd37dde9c6d9a573c3316481"
+  }
+}

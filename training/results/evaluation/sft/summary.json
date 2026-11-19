@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-02T13:32:04.545063+00:00",
+  "status": "complete",
+  "label": "sft",
+  "weight_sha256": "37d2450149c1c9d6f72d03780cd71abb04174352ca02f01bfb4a8843cc0892c4",
+  "examples": 6,
+  "nonempty": 6,
+  "hit_length_limit": 6,
+  "decode": {
+    "decode": "greedy",
+    "max_new_tokens": 128,
+    "images": "upstream dataset/eval_images (6 images)",
+    "type": "qualitative upstream reproduction; not a held-out benchmark"
+  },
+  "scope": "Upstream six-image qualitative demonstration only. No human labels, no accuracy score, no held-out generalization claim."
+}

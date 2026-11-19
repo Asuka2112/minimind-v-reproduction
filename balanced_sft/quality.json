@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "checked_at": "2026-11-17T16:59:34.557028+00:00",
+  "manifest_sha256": "2016d0f564d823aa108b4089a8b725965842ab30ff20a95990e095002416659b",
+  "sizes": {
+    "control": 3200,
+    "targeted": 3200,
+    "dev": 80,
+    "test": 240,
+    "challenge": 240
+  },
+  "verified_distinct_image_bytes": 3760,
+  "verified_count_and_position_rows": 2000,
+  "verified_color_rows": 640,
+  "train_number_labels": {
+    "1": 140,
+    "4": 140,
+    "5+": 140,
+    "3": 140,
+    "0": 140,
+    "2": 140
+  },
+  "challenge_number_labels": {
+    "0": 16,
+    "1": 16,
+    "2": 16,
+    "3": 16,
+    "4": 16,
+    "5+": 16
+  },
+  "pairs": {
+    "dev": 40,
+    "test": 120,
+    "challenge": 120
+  },
+  "changed_questions": 1374,
+  "visual_sample_counts": {
+    "train-natural": 24,
+    "train-count": 18,
+    "train-position": 12,
+    "challenge": 30
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "评测",
+  "status": "complete",
+  "pid": 3253455,
+  "started_at": "2026-11-17T08:24:29.556057+00:00",
+  "protocol_sha256": "11bf4afb6968eb66ce1c27778bcf0e5ffa43139a7af3a10e0b2d6b9415736d41",
+  "workers": {
+    "official": {
+      "pid": 3253523,
+      "gpu": "1"
+    },
+    "reproduced": {
+      "pid": 3253524,
+      "gpu": "2"
+    }
+  },
+  "finished_at": "2026-11-17T08:36:47.956481+00:00",
+  "worker_exit_codes": {
+    "official": 0,
+    "reproduced": 0
+  },
+  "predictions": 1824,
+  "results_sha256": "b8e777d1b2114b9873377cde067b97fa0e7bbf031ceb5870708f35230b1f7b5a"
+}

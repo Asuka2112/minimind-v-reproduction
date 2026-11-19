@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-01T17:51:40.880711+00:00",
+  "status": "failed",
+  "phase": "manual_attention_required",
+  "pid": 935452,
+  "remote_root": "/workspace/projects/minimind-v-official-20261102",
+  "error": "RuntimeError(\"GPU 2 is occupied; this pipeline will not preempt another job: {'memory_mib': 12, 'utilization_percent': 11}\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/projects/minimind-v-official-20261102/training/pipeline.py\", line 171, in <module>\n    gpu_check()\n  File \"/workspace/projects/minimind-v-official-20261102/training/pipeline.py\", line 28, in gpu_check\n    raise RuntimeError(f'GPU {index} is occupied; this pipeline will not preempt another job: {rows[index]}')\nRuntimeError: GPU 2 is occupied; this pipeline will not preempt another job: {'memory_mib': 12, 'utilization_percent': 11}\n"
+}

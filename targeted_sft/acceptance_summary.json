@@ -1,0 +1,237 @@
+{
+  "format_scope": "Frozen normalized answer parser, 192 token original graph. Raw correctness verified on full dataset; blind audit is a separate diagnostic.",
+  "frozen_result_sha256": "45895f104db751ef41db6f6d2912cbdd21cba6514f852f7b90a0fda85672b1a1",
+  "contrasts": {
+    "targeted_vs_control": {
+      "semantic": {
+        "delta_pp": 1.25,
+        "ci95_pp": [
+          -2.083333333333333,
+          5.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": -0.8333333333333334,
+        "ci95_pp": [
+          -2.083333333333333,
+          0.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 2.5,
+        "ci95_pp": [
+          -2.520833333333332,
+          8.333333333333332
+        ],
+        "pairs": 120,
+        "questions": 240
+      }
+    },
+    "targeted_vs_base": {
+      "semantic": {
+        "delta_pp": 17.916666666666668,
+        "ci95_pp": [
+          10.416666666666668,
+          24.583333333333332
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": 99.16666666666667,
+        "ci95_pp": [
+          97.91666666666666,
+          100.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 10.0,
+        "ci95_pp": [
+          2.5,
+          17.5
+        ],
+        "pairs": 120,
+        "questions": 240
+      }
+    },
+    "control_vs_base": {
+      "semantic": {
+        "delta_pp": 16.666666666666664,
+        "ci95_pp": [
+          9.989583333333334,
+          23.75
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": 100.0,
+        "ci95_pp": [
+          100.0,
+          100.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 7.5,
+        "ci95_pp": [
+          0.0,
+          14.166666666666666
+        ],
+        "pairs": 120,
+        "questions": 240
+      }
+    }
+  },
+  "targeted_vs_control_by_task": {
+    "object": {
+      "delta_pp": 8.333333333333332,
+      "ci95_pp": [
+        -1.6666666666666667,
+        18.333333333333332
+      ],
+      "pairs": 30,
+      "questions": 60
+    },
+    "color": {
+      "delta_pp": 0.0,
+      "ci95_pp": [
+        -5.0,
+        5.0
+      ],
+      "pairs": 30,
+      "questions": 60
+    },
+    "count": {
+      "delta_pp": 0.0,
+      "ci95_pp": [
+        -5.0,
+        5.0
+      ],
+      "pairs": 30,
+      "questions": 60
+    },
+    "position": {
+      "delta_pp": -3.3333333333333335,
+      "ci95_pp": [
+        -10.0,
+        3.3333333333333335
+      ],
+      "pairs": 30,
+      "questions": 60
+    }
+  },
+  "flag_sensitivity": {
+    "removed_pairs": [
+      "test-color-05",
+      "test-color-13",
+      "test-color-14",
+      "test-color-23",
+      "test-count-06",
+      "test-count-12",
+      "test-count-15",
+      "test-count-19",
+      "test-count-29"
+    ],
+    "targeted_vs_control": {
+      "semantic": {
+        "delta_pp": 1.8018018018018018,
+        "ci95_pp": [
+          -1.8018018018018018,
+          5.405405405405405
+        ],
+        "pairs": 111,
+        "questions": 222
+      },
+      "short": {
+        "delta_pp": -0.9009009009009009,
+        "ci95_pp": [
+          -2.2522522522522523,
+          0.0
+        ],
+        "pairs": 111,
+        "questions": 222
+      },
+      "pair": {
+        "delta_pp": 2.7027027027027026,
+        "ci95_pp": [
+          -3.6036036036036037,
+          9.00900900900901
+        ],
+        "pairs": 111,
+        "questions": 222
+      }
+    }
+  },
+  "blind_review": {
+    "labels_sha256": "c4a3385b5ed33a7cc093e6672f4d75050d3366d9023fe163c7aae4f36532a3fe",
+    "questions": 48,
+    "answers": 192,
+    "method": "Single Codex review with no model key before completing labels. Full original-image answers assessed against photographs and frozen annotations. Confirmed visible hallucinations and plain contradiction tags are conservative.",
+    "by_model": {
+      "base": {
+        "n": 48,
+        "scored_on_original_reference": {
+          "semantic": 13,
+          "contradiction": 5,
+          "repeated_description": 23,
+          "clear_visible_hallucination": 6
+        },
+        "clear_labels_n": 38,
+        "semantic_on_clear_labels": 13,
+        "agreement": 42,
+        "parser_false_positive": 3,
+        "parser_false_negative": 3
+      },
+      "official": {
+        "n": 48,
+        "scored_on_original_reference": {
+          "semantic": 12,
+          "contradiction": 6,
+          "repeated_description": 23,
+          "clear_visible_hallucination": 7
+        },
+        "clear_labels_n": 38,
+        "semantic_on_clear_labels": 10,
+        "agreement": 45,
+        "parser_false_positive": 2,
+        "parser_false_negative": 1
+      },
+      "control": {
+        "n": 48,
+        "scored_on_original_reference": {
+          "semantic": 19,
+          "contradiction": 0,
+          "repeated_description": 0,
+          "clear_visible_hallucination": 0
+        },
+        "clear_labels_n": 38,
+        "semantic_on_clear_labels": 16,
+        "agreement": 48,
+        "parser_false_positive": 0,
+        "parser_false_negative": 0
+      },
+      "targeted": {
+        "n": 48,
+        "scored_on_original_reference": {
+          "semantic": 20,
+          "contradiction": 0,
+          "repeated_description": 0,
+          "clear_visible_hallucination": 0
+        },
+        "clear_labels_n": 38,
+        "semantic_on_clear_labels": 17,
+        "agreement": 48,
+        "parser_false_positive": 0,
+        "parser_false_negative": 0
+      }
+    }
+  }
+}

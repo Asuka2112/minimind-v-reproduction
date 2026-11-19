@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "chat_template.jinja",
+    "destination": "weights/minimind-3v",
+    "size": 3895,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "config.json",
+    "destination": "weights/minimind-3v",
+    "size": 1014,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "generation_config.json",
+    "destination": "weights/minimind-3v",
+    "size": 111,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "pytorch_model.bin",
+    "destination": "weights/minimind-3v",
+    "size": 130220750,
+    "sha256": "baf6028706a526a5430de8ebf0c243a95ab8b318d668d5f4d91c1f5a1e55a760"
+  },
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "special_tokens_map.json",
+    "destination": "weights/minimind-3v",
+    "size": 1059,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "tokenizer.json",
+    "destination": "weights/minimind-3v",
+    "size": 451182,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/minimind-3v",
+    "revision": "1202082d61dcf6aa6afc36ec57df4e5dda4b3bec",
+    "file": "tokenizer_config.json",
+    "destination": "weights/minimind-3v",
+    "size": 7545,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/siglip2-base-p32-256-ve",
+    "revision": "9465d1dc89db6bc6227c5b6b0e0ca9b940325d62",
+    "file": "config.json",
+    "destination": "model/siglip2-base-p32-256-ve",
+    "size": 410,
+    "sha256": null
+  },
+  {
+    "repo": "jingyaogong/siglip2-base-p32-256-ve",
+    "revision": "9465d1dc89db6bc6227c5b6b0e0ca9b940325d62",
+    "file": "model.safetensors",
+    "destination": "model/siglip2-base-p32-256-ve",
+    "size": 189129296,
+    "sha256": "c1e9cc19ed6704b87353ee00b9ff5d6191886d741898339984364f789c62810d"
+  },
+  {
+    "repo": "jingyaogong/siglip2-base-p32-256-ve",
+    "revision": "9465d1dc89db6bc6227c5b6b0e0ca9b940325d62",
+    "file": "preprocessor_config.json",
+    "destination": "model/siglip2-base-p32-256-ve",
+    "size": 394,
+    "sha256": null
+  }
+]

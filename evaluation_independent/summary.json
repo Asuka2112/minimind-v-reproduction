@@ -1,0 +1,3108 @@
+{
+  "at": "2026-11-02T19:43:36.252875+00:00",
+  "status": "complete",
+  "protocol_sha256": "b30b6d78471d996a705e97c7fbfb321bbb44a000075e54b5f2224e489c800701",
+  "metrics": {
+    "full": {
+      "rows": 1500,
+      "unique_rgb_images": 1430,
+      "jobs": {
+        "initial_correct": {
+          "strict": {
+            "accuracy": 0.0013333333333333333,
+            "correct": 2,
+            "ci95_image_cluster": [
+              0.0,
+              0.003348961821835231
+            ]
+          },
+          "official": {
+            "accuracy": 0.044,
+            "correct": 66,
+            "ci95_image_cluster": [
+              0.03361843116615121,
+              0.054667578385590394
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2786666666666667,
+            "correct": 418,
+            "ci95_image_cluster": [
+              0.25585602191625,
+              0.3026375039500017
+            ]
+          },
+          "strict_format_rate": 0.006,
+          "length_cap_rate": 0.958,
+          "restricted_letter_counts": {
+            "C": 399,
+            "B": 650,
+            "A": 389,
+            "D": 62
+          },
+          "strict_letter_counts": {
+            "None": 1491,
+            "C": 9
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.3
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.024,
+              "restricted": 0.272
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.276
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.08,
+              "restricted": 0.276
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.068,
+              "restricted": 0.268
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.28
+            }
+          }
+        },
+        "initial_shuffled": {
+          "strict": {
+            "accuracy": 0.002,
+            "correct": 3,
+            "ci95_image_cluster": [
+              0.0,
+              0.004641909814323607
+            ]
+          },
+          "official": {
+            "accuracy": 0.04733333333333333,
+            "correct": 71,
+            "ci95_image_cluster": [
+              0.037134663284659856,
+              0.058546511732031674
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.256,
+            "correct": 384,
+            "ci95_image_cluster": [
+              0.2323518053313838,
+              0.27907170413522764
+            ]
+          },
+          "strict_format_rate": 0.0033333333333333335,
+          "length_cap_rate": 0.9653333333333334,
+          "restricted_letter_counts": {
+            "C": 380,
+            "B": 691,
+            "A": 366,
+            "D": 63
+          },
+          "strict_letter_counts": {
+            "None": 1495,
+            "C": 4,
+            "A": 1
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.296
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.028,
+              "restricted": 0.228
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.272
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.06,
+              "restricted": 0.212
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.076,
+              "restricted": 0.248
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.044,
+              "restricted": 0.28
+            }
+          }
+        },
+        "initial_none": {
+          "strict": {
+            "accuracy": 0.0006666666666666666,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0020229265003371545
+            ]
+          },
+          "official": {
+            "accuracy": 0.034,
+            "correct": 51,
+            "ci95_image_cluster": [
+              0.024832214765100672,
+              0.04347971693992253
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29,
+            "correct": 435,
+            "ci95_image_cluster": [
+              0.26706817328957977,
+              0.3125847075677459
+            ]
+          },
+          "strict_format_rate": 0.0026666666666666666,
+          "length_cap_rate": 0.954,
+          "restricted_letter_counts": {
+            "B": 1418,
+            "A": 71,
+            "D": 11
+          },
+          "strict_letter_counts": {
+            "None": 1496,
+            "B": 4
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.324
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.284
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.056,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.032,
+              "restricted": 0.308
+            }
+          }
+        },
+        "pretrain_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.005333333333333333,
+            "correct": 8,
+            "ci95_image_cluster": [
+              0.001977554774479483,
+              0.009993337774816789
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.306,
+            "correct": 459,
+            "ci95_image_cluster": [
+              0.2822015414278714,
+              0.32886849773034665
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 1.0,
+          "restricted_letter_counts": {
+            "B": 905,
+            "A": 584,
+            "D": 4,
+            "C": 7
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.34
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.316
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.004,
+              "restricted": 0.384
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.284
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.304
+            }
+          }
+        },
+        "pretrain_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.0006666666666666666,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0026233401098663418
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.27666666666666667,
+            "correct": 415,
+            "ci95_image_cluster": [
+              0.255316718515638,
+              0.29953302201467646
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9993333333333333,
+          "restricted_letter_counts": {
+            "B": 871,
+            "A": 615,
+            "C": 13,
+            "D": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.332
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.26
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.292
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.004,
+              "restricted": 0.276
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.244
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.256
+            }
+          }
+        },
+        "pretrain_none": {
+          "strict": {
+            "accuracy": 0.0006666666666666666,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0020229265003371545
+            ]
+          },
+          "official": {
+            "accuracy": 0.034,
+            "correct": 51,
+            "ci95_image_cluster": [
+              0.024832214765100672,
+              0.04347971693992253
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29,
+            "correct": 435,
+            "ci95_image_cluster": [
+              0.26706817328957977,
+              0.3125847075677459
+            ]
+          },
+          "strict_format_rate": 0.0026666666666666666,
+          "length_cap_rate": 0.954,
+          "restricted_letter_counts": {
+            "B": 1418,
+            "A": 71,
+            "D": 11
+          },
+          "strict_letter_counts": {
+            "None": 1496,
+            "B": 4
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.324
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.284
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.056,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.032,
+              "restricted": 0.308
+            }
+          }
+        },
+        "sft_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.018666666666666668,
+            "correct": 28,
+            "ci95_image_cluster": [
+              0.012136946406514748,
+              0.025503783900730635
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2966666666666667,
+            "correct": 445,
+            "ci95_image_cluster": [
+              0.2730935244131994,
+              0.31962932746069056
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9993333333333333,
+          "restricted_letter_counts": {
+            "B": 1378,
+            "A": 119,
+            "D": 2,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.32
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.064,
+              "restricted": 0.332
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.324
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.296
+            }
+          }
+        },
+        "sft_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.015333333333333332,
+            "correct": 23,
+            "ci95_image_cluster": [
+              0.009364235717812436,
+              0.021870604828475946
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2946666666666667,
+            "correct": 442,
+            "ci95_image_cluster": [
+              0.27090195796141664,
+              0.31772731222663153
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.996,
+          "restricted_letter_counts": {
+            "B": 1387,
+            "A": 111,
+            "D": 2
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.012,
+              "restricted": 0.312
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.312
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.316
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.292
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.228
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.308
+            }
+          }
+        },
+        "sft_none": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.02,
+            "correct": 30,
+            "ci95_image_cluster": [
+              0.013289036544850499,
+              0.027333333333333334
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.30266666666666664,
+            "correct": 454,
+            "ci95_image_cluster": [
+              0.279433770699773,
+              0.3255198710281067
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.968,
+          "restricted_letter_counts": {
+            "B": 1263,
+            "A": 237
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.312
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.336
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.332
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.284
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.224
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.328
+            }
+          }
+        },
+        "official_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.02,
+            "correct": 30,
+            "ci95_image_cluster": [
+              0.012734584450402145,
+              0.027498784654234127
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.294,
+            "correct": 441,
+            "ci95_image_cluster": [
+              0.27084619601090293,
+              0.3164227408696828
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9973333333333333,
+          "restricted_letter_counts": {
+            "B": 1475,
+            "A": 24,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.012,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.328
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.312
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.012,
+              "restricted": 0.2
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.308
+            }
+          }
+        },
+        "official_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.026,
+            "correct": 39,
+            "ci95_image_cluster": [
+              0.01854273955671653,
+              0.03425117528542646
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.296,
+            "correct": 444,
+            "ci95_image_cluster": [
+              0.2721163602061726,
+              0.3185483870967742
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9906666666666667,
+          "restricted_letter_counts": {
+            "B": 1478,
+            "A": 21,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.328
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.308
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.044,
+              "restricted": 0.308
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.056,
+              "restricted": 0.308
+            }
+          }
+        },
+        "official_none": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.014,
+            "correct": 21,
+            "ci95_image_cluster": [
+              0.008614834173765356,
+              0.020175527976469466
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.28933333333333333,
+            "correct": 434,
+            "ci95_image_cluster": [
+              0.26603600653195997,
+              0.3118360094075089
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9733333333333334,
+          "restricted_letter_counts": {
+            "B": 1316,
+            "A": 183,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.312
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.324
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.032,
+              "restricted": 0.324
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.256
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.312
+            }
+          }
+        }
+      }
+    },
+    "exact_free": {
+      "rows": 1500,
+      "unique_rgb_images": 1430,
+      "jobs": {
+        "initial_correct": {
+          "strict": {
+            "accuracy": 0.0013333333333333333,
+            "correct": 2,
+            "ci95_image_cluster": [
+              0.0,
+              0.003348961821835231
+            ]
+          },
+          "official": {
+            "accuracy": 0.044,
+            "correct": 66,
+            "ci95_image_cluster": [
+              0.03361843116615121,
+              0.054667578385590394
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2786666666666667,
+            "correct": 418,
+            "ci95_image_cluster": [
+              0.25585602191625,
+              0.3026375039500017
+            ]
+          },
+          "strict_format_rate": 0.006,
+          "length_cap_rate": 0.958,
+          "restricted_letter_counts": {
+            "C": 399,
+            "B": 650,
+            "A": 389,
+            "D": 62
+          },
+          "strict_letter_counts": {
+            "None": 1491,
+            "C": 9
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.3
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.024,
+              "restricted": 0.272
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.276
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.08,
+              "restricted": 0.276
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.068,
+              "restricted": 0.268
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.28
+            }
+          }
+        },
+        "initial_shuffled": {
+          "strict": {
+            "accuracy": 0.002,
+            "correct": 3,
+            "ci95_image_cluster": [
+              0.0,
+              0.004641909814323607
+            ]
+          },
+          "official": {
+            "accuracy": 0.04733333333333333,
+            "correct": 71,
+            "ci95_image_cluster": [
+              0.037134663284659856,
+              0.058546511732031674
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.256,
+            "correct": 384,
+            "ci95_image_cluster": [
+              0.2323518053313838,
+              0.27907170413522764
+            ]
+          },
+          "strict_format_rate": 0.0033333333333333335,
+          "length_cap_rate": 0.9653333333333334,
+          "restricted_letter_counts": {
+            "C": 380,
+            "B": 691,
+            "A": 366,
+            "D": 63
+          },
+          "strict_letter_counts": {
+            "None": 1495,
+            "C": 4,
+            "A": 1
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.296
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.028,
+              "restricted": 0.228
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.272
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.06,
+              "restricted": 0.212
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.076,
+              "restricted": 0.248
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.044,
+              "restricted": 0.28
+            }
+          }
+        },
+        "initial_none": {
+          "strict": {
+            "accuracy": 0.0006666666666666666,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0020229265003371545
+            ]
+          },
+          "official": {
+            "accuracy": 0.034,
+            "correct": 51,
+            "ci95_image_cluster": [
+              0.024832214765100672,
+              0.04347971693992253
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29,
+            "correct": 435,
+            "ci95_image_cluster": [
+              0.26706817328957977,
+              0.3125847075677459
+            ]
+          },
+          "strict_format_rate": 0.0026666666666666666,
+          "length_cap_rate": 0.954,
+          "restricted_letter_counts": {
+            "B": 1418,
+            "A": 71,
+            "D": 11
+          },
+          "strict_letter_counts": {
+            "None": 1496,
+            "B": 4
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.324
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.284
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.056,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.032,
+              "restricted": 0.308
+            }
+          }
+        },
+        "pretrain_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.005333333333333333,
+            "correct": 8,
+            "ci95_image_cluster": [
+              0.001977554774479483,
+              0.009993337774816789
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.306,
+            "correct": 459,
+            "ci95_image_cluster": [
+              0.2822015414278714,
+              0.32886849773034665
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 1.0,
+          "restricted_letter_counts": {
+            "B": 905,
+            "A": 584,
+            "D": 4,
+            "C": 7
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.34
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.316
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.004,
+              "restricted": 0.384
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.284
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.304
+            }
+          }
+        },
+        "pretrain_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.0006666666666666666,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0026233401098663418
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.27666666666666667,
+            "correct": 415,
+            "ci95_image_cluster": [
+              0.255316718515638,
+              0.29953302201467646
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9993333333333333,
+          "restricted_letter_counts": {
+            "B": 871,
+            "A": 615,
+            "C": 13,
+            "D": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.332
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.26
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.292
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.004,
+              "restricted": 0.276
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.244
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.256
+            }
+          }
+        },
+        "pretrain_none": {
+          "strict": {
+            "accuracy": 0.0006666666666666666,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0020229265003371545
+            ]
+          },
+          "official": {
+            "accuracy": 0.034,
+            "correct": 51,
+            "ci95_image_cluster": [
+              0.024832214765100672,
+              0.04347971693992253
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29,
+            "correct": 435,
+            "ci95_image_cluster": [
+              0.26706817328957977,
+              0.3125847075677459
+            ]
+          },
+          "strict_format_rate": 0.0026666666666666666,
+          "length_cap_rate": 0.954,
+          "restricted_letter_counts": {
+            "B": 1418,
+            "A": 71,
+            "D": 11
+          },
+          "strict_letter_counts": {
+            "None": 1496,
+            "B": 4
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.04,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.324
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.284
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.004,
+              "official": 0.056,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.032,
+              "restricted": 0.308
+            }
+          }
+        },
+        "sft_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.018666666666666668,
+            "correct": 28,
+            "ci95_image_cluster": [
+              0.012136946406514748,
+              0.025503783900730635
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2966666666666667,
+            "correct": 445,
+            "ci95_image_cluster": [
+              0.2730935244131994,
+              0.31962932746069056
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9993333333333333,
+          "restricted_letter_counts": {
+            "B": 1378,
+            "A": 119,
+            "D": 2,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.32
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.064,
+              "restricted": 0.332
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.324
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.296
+            }
+          }
+        },
+        "sft_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.015333333333333332,
+            "correct": 23,
+            "ci95_image_cluster": [
+              0.009364235717812436,
+              0.021870604828475946
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2946666666666667,
+            "correct": 442,
+            "ci95_image_cluster": [
+              0.27090195796141664,
+              0.31772731222663153
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.996,
+          "restricted_letter_counts": {
+            "B": 1387,
+            "A": 111,
+            "D": 2
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.012,
+              "restricted": 0.312
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.036,
+              "restricted": 0.312
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.316
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.292
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.228
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.308
+            }
+          }
+        },
+        "sft_none": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.02,
+            "correct": 30,
+            "ci95_image_cluster": [
+              0.013289036544850499,
+              0.027333333333333334
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.30266666666666664,
+            "correct": 454,
+            "ci95_image_cluster": [
+              0.279433770699773,
+              0.3255198710281067
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.968,
+          "restricted_letter_counts": {
+            "B": 1263,
+            "A": 237
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.312
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.336
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.332
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.284
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.224
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.328
+            }
+          }
+        },
+        "official_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.02,
+            "correct": 30,
+            "ci95_image_cluster": [
+              0.012734584450402145,
+              0.027498784654234127
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.294,
+            "correct": 441,
+            "ci95_image_cluster": [
+              0.27084619601090293,
+              0.3164227408696828
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9973333333333333,
+          "restricted_letter_counts": {
+            "B": 1475,
+            "A": 24,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.012,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.02,
+              "restricted": 0.328
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.312
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.3
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.012,
+              "restricted": 0.2
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.308
+            }
+          }
+        },
+        "official_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.026,
+            "correct": 39,
+            "ci95_image_cluster": [
+              0.01854273955671653,
+              0.03425117528542646
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.296,
+            "correct": 444,
+            "ci95_image_cluster": [
+              0.2721163602061726,
+              0.3185483870967742
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9906666666666667,
+          "restricted_letter_counts": {
+            "B": 1478,
+            "A": 21,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.316
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.328
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.016,
+              "restricted": 0.308
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.044,
+              "restricted": 0.308
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.008,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.056,
+              "restricted": 0.308
+            }
+          }
+        },
+        "official_none": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.014,
+            "correct": 21,
+            "ci95_image_cluster": [
+              0.008614834173765356,
+              0.020175527976469466
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.28933333333333333,
+            "correct": 434,
+            "ci95_image_cluster": [
+              0.26603600653195997,
+              0.3118360094075089
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9733333333333334,
+          "restricted_letter_counts": {
+            "B": 1316,
+            "A": 183,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1500
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.312
+            },
+            "fine-grained perception": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.324
+            },
+            "instance reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.032,
+              "restricted": 0.324
+            },
+            "logical reasoning": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.024,
+              "restricted": 0.256
+            },
+            "math": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.208
+            },
+            "science & technology": {
+              "rows": 250,
+              "strict": 0.0,
+              "official": 0.028,
+              "restricted": 0.312
+            }
+          }
+        }
+      }
+    },
+    "conservative_free": {
+      "rows": 1442,
+      "unique_rgb_images": 1374,
+      "jobs": {
+        "initial_correct": {
+          "strict": {
+            "accuracy": 0.0013869625520110957,
+            "correct": 2,
+            "ci95_image_cluster": [
+              0.0,
+              0.0034771119518623153
+            ]
+          },
+          "official": {
+            "accuracy": 0.04507628294036061,
+            "correct": 65,
+            "ci95_image_cluster": [
+              0.03464525862871831,
+              0.05633019494733089
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.28224687933425796,
+            "correct": 407,
+            "ci95_image_cluster": [
+              0.25999895178197063,
+              0.3058280923134688
+            ]
+          },
+          "strict_format_rate": 0.0062413314840499305,
+          "length_cap_rate": 0.957004160887656,
+          "restricted_letter_counts": {
+            "C": 389,
+            "B": 621,
+            "A": 373,
+            "D": 59
+          },
+          "strict_letter_counts": {
+            "None": 1433,
+            "C": 9
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.01639344262295082,
+              "restricted": 0.29918032786885246
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.004032258064516129,
+              "official": 0.024193548387096774,
+              "restricted": 0.2701612903225806
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.036734693877551024,
+              "restricted": 0.27755102040816326
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.08016877637130802,
+              "restricted": 0.2869198312236287
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.004366812227074236,
+              "official": 0.07423580786026202,
+              "restricted": 0.2663755458515284
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.04184100418410042,
+              "restricted": 0.2928870292887029
+            }
+          }
+        },
+        "initial_shuffled": {
+          "strict": {
+            "accuracy": 0.0020804438280166435,
+            "correct": 3,
+            "ci95_image_cluster": [
+              0.0,
+              0.004864489228630994
+            ]
+          },
+          "official": {
+            "accuracy": 0.0478502080443828,
+            "correct": 69,
+            "ci95_image_cluster": [
+              0.037524757679763536,
+              0.05967103177662974
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.25866851595006934,
+            "correct": 373,
+            "ci95_image_cluster": [
+              0.2355772325931005,
+              0.28114398486430064
+            ]
+          },
+          "strict_format_rate": 0.0034674063800277394,
+          "length_cap_rate": 0.9646324549237171,
+          "restricted_letter_counts": {
+            "B": 667,
+            "C": 361,
+            "A": 353,
+            "D": 61
+          },
+          "strict_letter_counts": {
+            "None": 1437,
+            "C": 4,
+            "A": 1
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.036885245901639344,
+              "restricted": 0.29918032786885246
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.004032258064516129,
+              "official": 0.028225806451612902,
+              "restricted": 0.22983870967741934
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.036734693877551024,
+              "restricted": 0.2693877551020408
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.004219409282700422,
+              "official": 0.06329113924050633,
+              "restricted": 0.2109704641350211
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.004366812227074236,
+              "official": 0.07860262008733625,
+              "restricted": 0.2576419213973799
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.04602510460251046,
+              "restricted": 0.28451882845188287
+            }
+          }
+        },
+        "initial_none": {
+          "strict": {
+            "accuracy": 0.0006934812760055479,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0020964727096802567
+            ]
+          },
+          "official": {
+            "accuracy": 0.03398058252427184,
+            "correct": 49,
+            "ci95_image_cluster": [
+              0.024704201605442986,
+              0.04347901153014652
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29056865464632453,
+            "correct": 419,
+            "ci95_image_cluster": [
+              0.2670325542354091,
+              0.3139705734961012
+            ]
+          },
+          "strict_format_rate": 0.0027739251040221915,
+          "length_cap_rate": 0.9521497919556172,
+          "restricted_letter_counts": {
+            "B": 1361,
+            "A": 70,
+            "D": 11
+          },
+          "strict_letter_counts": {
+            "None": 1438,
+            "B": 4
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.040983606557377046,
+              "restricted": 0.319672131147541
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.020161290322580645,
+              "restricted": 0.32661290322580644
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.02040816326530612,
+              "restricted": 0.2897959183673469
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.0379746835443038,
+              "restricted": 0.29957805907172996
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.004366812227074236,
+              "official": 0.056768558951965066,
+              "restricted": 0.19213973799126638
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.029288702928870293,
+              "restricted": 0.30962343096234307
+            }
+          }
+        },
+        "pretrain_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.0048543689320388345,
+            "correct": 7,
+            "ci95_image_cluster": [
+              0.0013879250520471894,
+              0.009059233449477353
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.30998613037447986,
+            "correct": 447,
+            "ci95_image_cluster": [
+              0.2859135285913529,
+              0.33402640636461095
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 1.0,
+          "restricted_letter_counts": {
+            "B": 882,
+            "A": 549,
+            "D": 4,
+            "C": 7
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.3442622950819672
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.31451612903225806
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.004081632653061225,
+              "restricted": 0.3877551020408163
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.004219409282700422,
+              "restricted": 0.27848101265822783
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.021834061135371178,
+              "restricted": 0.21397379912663755
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.3138075313807531
+            }
+          }
+        },
+        "pretrain_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.0006934812760055479,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.00209351011863224
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2780859916782247,
+            "correct": 401,
+            "ci95_image_cluster": [
+              0.2545201668984701,
+              0.3002070753067822
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9993065187239945,
+          "restricted_letter_counts": {
+            "B": 836,
+            "A": 592,
+            "C": 13,
+            "D": 1
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.3360655737704918
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.2620967741935484
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.2938775510204082
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.004219409282700422,
+              "restricted": 0.2742616033755274
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.24017467248908297
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.2594142259414226
+            }
+          }
+        },
+        "pretrain_none": {
+          "strict": {
+            "accuracy": 0.0006934812760055479,
+            "correct": 1,
+            "ci95_image_cluster": [
+              0.0,
+              0.0020964727096802567
+            ]
+          },
+          "official": {
+            "accuracy": 0.03398058252427184,
+            "correct": 49,
+            "ci95_image_cluster": [
+              0.024704201605442986,
+              0.04347901153014652
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29056865464632453,
+            "correct": 419,
+            "ci95_image_cluster": [
+              0.2670325542354091,
+              0.3139705734961012
+            ]
+          },
+          "strict_format_rate": 0.0027739251040221915,
+          "length_cap_rate": 0.9521497919556172,
+          "restricted_letter_counts": {
+            "B": 1361,
+            "A": 70,
+            "D": 11
+          },
+          "strict_letter_counts": {
+            "None": 1438,
+            "B": 4
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.040983606557377046,
+              "restricted": 0.319672131147541
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.020161290322580645,
+              "restricted": 0.32661290322580644
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.02040816326530612,
+              "restricted": 0.2897959183673469
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.0379746835443038,
+              "restricted": 0.29957805907172996
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.004366812227074236,
+              "official": 0.056768558951965066,
+              "restricted": 0.19213973799126638
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.029288702928870293,
+              "restricted": 0.30962343096234307
+            }
+          }
+        },
+        "sft_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.019417475728155338,
+            "correct": 28,
+            "ci95_image_cluster": [
+              0.012482446705747677,
+              0.027121001390820583
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29819694868238555,
+            "correct": 430,
+            "ci95_image_cluster": [
+              0.2739818202444766,
+              0.32213002355754017
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9993065187239945,
+          "restricted_letter_counts": {
+            "B": 1331,
+            "A": 108,
+            "D": 2,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.01639344262295082,
+              "restricted": 0.3237704918032787
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.06451612903225806,
+              "restricted": 0.33064516129032256
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.3306122448979592
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.02531645569620253,
+              "restricted": 0.29957805907172996
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.1965065502183406
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.008368200836820083,
+              "restricted": 0.301255230125523
+            }
+          }
+        },
+        "sft_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.0159500693481276,
+            "correct": 23,
+            "ci95_image_cluster": [
+              0.010297505632792634,
+              0.022333348197745368
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29819694868238555,
+            "correct": 430,
+            "ci95_image_cluster": [
+              0.27461758695787686,
+              0.32158112480139794
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9965325936199723,
+          "restricted_letter_counts": {
+            "B": 1339,
+            "A": 101,
+            "D": 2
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.012295081967213115,
+              "restricted": 0.3155737704918033
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.036290322580645164,
+              "restricted": 0.31451612903225806
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.00816326530612245,
+              "restricted": 0.3224489795918367
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.02109704641350211,
+              "restricted": 0.29957805907172996
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.2183406113537118
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.016736401673640166,
+              "restricted": 0.3138075313807531
+            }
+          }
+        },
+        "sft_none": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.019417475728155338,
+            "correct": 28,
+            "ci95_image_cluster": [
+              0.012421718597607925,
+              0.026334940075398085
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.3030513176144244,
+            "correct": 437,
+            "ci95_image_cluster": [
+              0.2793063242041531,
+              0.32801746798563525
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9694868238557559,
+          "restricted_letter_counts": {
+            "B": 1227,
+            "A": 215
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.00819672131147541,
+              "restricted": 0.3155737704918033
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.020161290322580645,
+              "restricted": 0.3346774193548387
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.00816326530612245,
+              "restricted": 0.33877551020408164
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.029535864978902954,
+              "restricted": 0.270042194092827
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.026200873362445413,
+              "restricted": 0.2183406113537118
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.02510460251046025,
+              "restricted": 0.33472803347280333
+            }
+          }
+        },
+        "official_correct": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.02011095700416089,
+            "correct": 29,
+            "ci95_image_cluster": [
+              0.013221760389778195,
+              0.028413521010608386
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.29403606102635227,
+            "correct": 424,
+            "ci95_image_cluster": [
+              0.27079037800687283,
+              0.3175818798608624
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9972260748959778,
+          "restricted_letter_counts": {
+            "B": 1417,
+            "A": 24,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.012295081967213115,
+              "restricted": 0.319672131147541
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.020161290322580645,
+              "restricted": 0.32661290322580644
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.024489795918367346,
+              "restricted": 0.3183673469387755
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.02531645569620253,
+              "restricted": 0.29957805907172996
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.013100436681222707,
+              "restricted": 0.18340611353711792
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.02510460251046025,
+              "restricted": 0.30962343096234307
+            }
+          }
+        },
+        "official_shuffled": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.02565880721220527,
+            "correct": 37,
+            "ci95_image_cluster": [
+              0.017918368257476083,
+              0.03372565839126776
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.2961165048543689,
+            "correct": 427,
+            "ci95_image_cluster": [
+              0.2722825750541628,
+              0.32066474957562247
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9902912621359223,
+          "restricted_letter_counts": {
+            "B": 1421,
+            "A": 20,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.00819672131147541,
+              "restricted": 0.319672131147541
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.024193548387096774,
+              "restricted": 0.32661290322580644
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.0163265306122449,
+              "restricted": 0.3142857142857143
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.046413502109704644,
+              "restricted": 0.3080168776371308
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.008733624454148471,
+              "restricted": 0.19213973799126638
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.0502092050209205,
+              "restricted": 0.30962343096234307
+            }
+          }
+        },
+        "official_none": {
+          "strict": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "ci95_image_cluster": [
+              0.0,
+              0.0
+            ]
+          },
+          "official": {
+            "accuracy": 0.014563106796116505,
+            "correct": 21,
+            "ci95_image_cluster": [
+              0.008379450294901992,
+              0.021453287197231833
+            ]
+          },
+          "restricted": {
+            "accuracy": 0.28918169209431344,
+            "correct": 417,
+            "ci95_image_cluster": [
+              0.2658793905303333,
+              0.3136849030470914
+            ]
+          },
+          "strict_format_rate": 0.0,
+          "length_cap_rate": 0.9722607489597781,
+          "restricted_letter_counts": {
+            "B": 1274,
+            "A": 167,
+            "C": 1
+          },
+          "strict_letter_counts": {
+            "None": 1442
+          },
+          "categories": {
+            "coarse perception": {
+              "rows": 244,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.3155737704918033
+            },
+            "fine-grained perception": {
+              "rows": 248,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.32661290322580644
+            },
+            "instance reasoning": {
+              "rows": 245,
+              "strict": 0.0,
+              "official": 0.0326530612244898,
+              "restricted": 0.32653061224489793
+            },
+            "logical reasoning": {
+              "rows": 237,
+              "strict": 0.0,
+              "official": 0.02531645569620253,
+              "restricted": 0.25316455696202533
+            },
+            "math": {
+              "rows": 229,
+              "strict": 0.0,
+              "official": 0.0,
+              "restricted": 0.19213973799126638
+            },
+            "science & technology": {
+              "rows": 239,
+              "strict": 0.0,
+              "official": 0.029288702928870293,
+              "restricted": 0.3138075313807531
+            }
+          }
+        }
+      }
+    }
+  },
+  "paired_differences": {
+    "full": {
+      "sft_correct_minus_initial_correct": {
+        "strict": {
+          "difference_pp": -0.13333333333333333,
+          "ci95_image_cluster_pp": [
+            -0.33489618218352313,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -2.533333333333333,
+          "ci95_image_cluster_pp": [
+            -3.740940074128189,
+            -1.2777189495339538
+          ]
+        },
+        "restricted": {
+          "difference_pp": 1.7999999999999998,
+          "ci95_image_cluster_pp": [
+            -1.0710584272574166,
+            4.619329217262229
+          ]
+        }
+      },
+      "sft_correct_minus_official_correct": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -0.13333333333333333,
+          "ci95_image_cluster_pp": [
+            -0.998003992015968,
+            0.6610374098240773
+          ]
+        },
+        "restricted": {
+          "difference_pp": 0.26666666666666666,
+          "ci95_image_cluster_pp": [
+            -0.6707133330540666,
+            1.254250077095184
+          ]
+        }
+      },
+      "sft_correct_minus_sft_shuffled": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": 0.33333333333333337,
+          "ci95_image_cluster_pp": [
+            -0.26561307959650754,
+            0.9253906462295821
+          ]
+        },
+        "restricted": {
+          "difference_pp": 0.2,
+          "ci95_image_cluster_pp": [
+            -0.8748464909299364,
+            1.267511674449633
+          ]
+        }
+      },
+      "sft_correct_minus_sft_none": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -0.13333333333333333,
+          "ci95_image_cluster_pp": [
+            -0.8817510142557045,
+            0.66229562984266
+          ]
+        },
+        "restricted": {
+          "difference_pp": -0.6,
+          "ci95_image_cluster_pp": [
+            -1.9385026737967916,
+            0.7343246796218159
+          ]
+        }
+      }
+    },
+    "exact_free": {
+      "sft_correct_minus_initial_correct": {
+        "strict": {
+          "difference_pp": -0.13333333333333333,
+          "ci95_image_cluster_pp": [
+            -0.33489618218352313,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -2.533333333333333,
+          "ci95_image_cluster_pp": [
+            -3.740940074128189,
+            -1.2777189495339538
+          ]
+        },
+        "restricted": {
+          "difference_pp": 1.7999999999999998,
+          "ci95_image_cluster_pp": [
+            -1.0710584272574166,
+            4.619329217262229
+          ]
+        }
+      },
+      "sft_correct_minus_official_correct": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -0.13333333333333333,
+          "ci95_image_cluster_pp": [
+            -0.998003992015968,
+            0.6610374098240773
+          ]
+        },
+        "restricted": {
+          "difference_pp": 0.26666666666666666,
+          "ci95_image_cluster_pp": [
+            -0.6707133330540666,
+            1.254250077095184
+          ]
+        }
+      },
+      "sft_correct_minus_sft_shuffled": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": 0.33333333333333337,
+          "ci95_image_cluster_pp": [
+            -0.26561307959650754,
+            0.9253906462295821
+          ]
+        },
+        "restricted": {
+          "difference_pp": 0.2,
+          "ci95_image_cluster_pp": [
+            -0.8748464909299364,
+            1.267511674449633
+          ]
+        }
+      },
+      "sft_correct_minus_sft_none": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -0.13333333333333333,
+          "ci95_image_cluster_pp": [
+            -0.8817510142557045,
+            0.66229562984266
+          ]
+        },
+        "restricted": {
+          "difference_pp": -0.6,
+          "ci95_image_cluster_pp": [
+            -1.9385026737967916,
+            0.7343246796218159
+          ]
+        }
+      }
+    },
+    "conservative_free": {
+      "sft_correct_minus_initial_correct": {
+        "strict": {
+          "difference_pp": -0.13869625520110956,
+          "ci95_image_cluster_pp": [
+            -0.34771119518623156,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -2.565880721220527,
+          "ci95_image_cluster_pp": [
+            -3.848912728142342,
+            -1.2370286101905703
+          ]
+        },
+        "restricted": {
+          "difference_pp": 1.59500693481276,
+          "ci95_image_cluster_pp": [
+            -1.3195593786295006,
+            4.378421934106958
+          ]
+        }
+      },
+      "sft_correct_minus_official_correct": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": -0.06934812760055478,
+          "ci95_image_cluster_pp": [
+            -0.8959338387319091,
+            0.7570674049510938
+          ]
+        },
+        "restricted": {
+          "difference_pp": 0.4160887656033287,
+          "ci95_image_cluster_pp": [
+            -0.4864489228630994,
+            1.4483008495752123
+          ]
+        }
+      },
+      "sft_correct_minus_sft_shuffled": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": 0.34674063800277394,
+          "ci95_image_cluster_pp": [
+            -0.20920502092050208,
+            0.9173892616764138
+          ]
+        },
+        "restricted": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            -1.117055669226171,
+            1.1732431682737952
+          ]
+        }
+      },
+      "sft_correct_minus_sft_none": {
+        "strict": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "official": {
+          "difference_pp": 0.0,
+          "ci95_image_cluster_pp": [
+            -0.7570543702684102,
+            0.7763478343918565
+          ]
+        },
+        "restricted": {
+          "difference_pp": -0.48543689320388345,
+          "ci95_image_cluster_pp": [
+            -1.8582243633860975,
+            0.9046624913013221
+          ]
+        }
+      }
+    }
+  },
+  "text64": {
+    "initial": {
+      "rows": 64,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "answer_token_nll": 7.110833481104687,
+      "length_cap_rate": 1.0
+    },
+    "pretrain": {
+      "rows": 64,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "answer_token_nll": 7.110833481104687,
+      "length_cap_rate": 1.0
+    },
+    "sft": {
+      "rows": 64,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "answer_token_nll": 7.352857531923236,
+      "length_cap_rate": 1.0
+    },
+    "official": {
+      "rows": 64,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "answer_token_nll": 7.129484908749359,
+      "length_cap_rate": 1.0
+    }
+  },
+  "overlap": {
+    "rows": 1500,
+    "unique_rgb_images": 1430,
+    "exact_match_rows": 0,
+    "conservative_match_rows": 58,
+    "exact_free_rows": 1500,
+    "conservative_free_rows": 1442,
+    "scope": "Both actual full official fine-tuning sources; direct dHash<=3 is a conservative candidate filter, not confirmed semantic duplication. Foundation pretraining contamination remains unknown."
+  },
+  "gold_letter_counts": {
+    "A": 429,
+    "B": 447,
+    "D": 315,
+    "C": 309
+  },
+  "official_rule_parity": [
+    {
+      "job": "initial_correct",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.044
+    },
+    {
+      "job": "initial_shuffled",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.04733333333333333
+    },
+    {
+      "job": "initial_none",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.034
+    },
+    {
+      "job": "pretrain_correct",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.005333333333333333
+    },
+    {
+      "job": "pretrain_shuffled",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.0006666666666666666
+    },
+    {
+      "job": "pretrain_none",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.034
+    },
+    {
+      "job": "sft_correct",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.018666666666666668
+    },
+    {
+      "job": "sft_shuffled",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.015333333333333332
+    },
+    {
+      "job": "sft_none",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.02
+    },
+    {
+      "job": "official_correct",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.02
+    },
+    {
+      "job": "official_shuffled",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.026
+    },
+    {
+      "job": "official_none",
+      "same_score_as_executed_pinned_official_function": true,
+      "score": 0.014
+    }
+  ],
+  "interpretation": "Restricted-letter scores are a separate forced-choice diagnostic, never interchangeable with generated-answer accuracy. No foundation-model contamination or general language retention guarantee."
+}

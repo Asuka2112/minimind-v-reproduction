@@ -1,0 +1,10 @@
+{
+  "model": "official",
+  "started_at": "2026-11-17T08:24:54.976011+00:00",
+  "finished_at": "2026-11-17T08:36:39.217478+00:00",
+  "rows": 912,
+  "sha256": "591c2727ba71bc796c07d770176369d0aca7763f76d2a3e7e85a79b1831bec2f",
+  "gpu": "1",
+  "protocol_sha256": "11bf4afb6968eb66ce1c27778bcf0e5ffa43139a7af3a10e0b2d6b9415736d41",
+  "checkpoint_sha256": "0d3fee0970c2174d22226de25d273e2f375bda8ed39b8f1673e1519c94264f9e"
+}

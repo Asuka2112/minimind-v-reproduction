@@ -1,0 +1,95 @@
+{
+  "files": {
+    "challenge.jsonl": "a05b65468547d46af793fb48ee0ec2ab58627ba24e9c828b96f82292868512cb",
+    "control.jsonl": "76d8ca8f594da2d04d10921e9fc3dc22606ccc8a6366c80cf590973bd57d3415",
+    "dev.jsonl": "48059e6b3a563e8f9a726208aeb3f985fe2e2b81cbad9759dfe9fd88b2eb3cd3",
+    "targeted.jsonl": "79c1325a5c70336c7cb3383680063c238478f6b5e6d9bcf2753cab31280fa93a",
+    "test.jsonl": "d27a4f8c2c4646f4ae24469430f8addf288d24147799c1548b5e5c41a15f5e9c",
+    "text_regression.jsonl": "969e0ef2ae02a6ede6278d97e03b6350bd28622872655777d9ea3fefc37091c1"
+  },
+  "source": "Pinned COCO photos and manually screened instance masks, generated color shapes and opaque-card occlusion scenes",
+  "donor_selection_sha256": "8e1f6e4c463bfa358706ca1c730eda467dd3250677211b46d4c91727c68220de",
+  "donor_gallery_index_sha256": "657fa47be8253739b5a48544f89c1c6fb88e1852e2083240d7bff2bbc84cbfa4",
+  "curated_class_count": 12,
+  "instances_by_class": {
+    "train": {
+      "狗": 9,
+      "汽车": 8,
+      "火车": 12,
+      "猫": 10,
+      "笔记本电脑": 10,
+      "牛": 7,
+      "公交车": 12,
+      "飞机": 11,
+      "鸟": 11,
+      "长颈鹿": 10,
+      "斑马": 11,
+      "马": 11
+    },
+    "challenge": {
+      "狗": 9,
+      "鸟": 10,
+      "猫": 9,
+      "汽车": 8,
+      "马": 8,
+      "飞机": 11,
+      "火车": 10,
+      "公交车": 9,
+      "长颈鹿": 11,
+      "斑马": 11,
+      "牛": 8,
+      "笔记本电脑": 9
+    }
+  },
+  "coco_sha256": {
+    "val0.parquet": "dc7a465827eab75e825eb38c9993e6b04fcf918fc2f034504d5760aedfa71d7c",
+    "val1.parquet": "fa7fcf60b688c5555b92778ca9654da9400c72d1612b09f3a094a18266e8d859",
+    "instances.json": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f"
+  },
+  "matching": "All 3200 encoded A/B images and order are identical. Prompts differ in 1374 rows.",
+  "old_test_state": "Frozen old comparison has previously been benchmarked. No per-item adaptation; evidence is corroborated on the separately locked challenge.",
+  "challenge_scope": "Script-generated arrangements rather than unmodified natural photographs. Fresh source donors excluded by id/exact RGB/dHash<=3 against prior question pools and full original SFT visual index; foundation contamination unknown.",
+  "train_donors": 875,
+  "challenge_donors": 110,
+  "old_train_pool": 2048,
+  "fresh_pool": 424,
+  "exclusions": {
+    "prior_or_repeat": 647
+  },
+  "task_counts": {
+    "control": {
+      "count": 226,
+      "object": 2054,
+      "position": 160,
+      "color": 760
+    },
+    "targeted": {
+      "count": 960,
+      "object": 800,
+      "position": 800,
+      "color": 640
+    },
+    "challenge": {
+      "count": 120,
+      "position": 120
+    }
+  },
+  "balanced_count": {
+    "1": 140,
+    "4": 140,
+    "5+": 140,
+    "3": 140,
+    "0": 140,
+    "2": 140
+  },
+  "balanced_space": {
+    "horizontal/左边": 200,
+    "depth/前面": 60,
+    "vertical/上方": 140,
+    "horizontal/右边": 200,
+    "vertical/下方": 140,
+    "depth/后面": 60
+  },
+  "changed_questions": 1374,
+  "mildly_occluded_count_scenes": 411
+}

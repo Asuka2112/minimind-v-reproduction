@@ -1,0 +1,28 @@
+{
+  "name": "评测",
+  "pid": 3714673,
+  "status": "complete",
+  "started_at": "2026-11-17T12:02:21.024034+00:00",
+  "completed_stages": [
+    "smoke-32",
+    "dev-42",
+    "train-42",
+    "test-42"
+  ],
+  "protocol_sha256": "b28145e87e5ec210e53894f76758ac2835f394afbf213da4257bbef98e3f225a",
+  "gpus": [
+    "1",
+    "2"
+  ],
+  "stage": "awaiting_semantic_review",
+  "at": "2026-11-17T12:12:28.642026+00:00",
+  "workers": {},
+  "first_seed_gates": {
+    "semantic": false,
+    "short": false,
+    "visual_pair": false,
+    "text": true
+  },
+  "first_seed_passed": false,
+  "completed_at": "2026-11-17T12:12:29.745602+00:00"
+}

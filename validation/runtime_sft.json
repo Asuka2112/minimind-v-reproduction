@@ -1,0 +1,19 @@
+{
+  "model": "sft",
+  "device": "mps",
+  "total_parameters": 159647232,
+  "checks": {
+    "image_placeholder_count": 64,
+    "different_images_change_logits": 2.861084461212158,
+    "missing_image_error_propagates": true,
+    "context_limit_error_propagates": true,
+    "cancellation_releases_model": true,
+    "generation_recovers_after_errors_and_cancel": true
+  },
+  "example": {
+    "image": "image-04-yellow-car.jpg",
+    "question": "这辆车是什么颜色的？",
+    "answer": "这辆车的黄色是黑色，这是许多高尔夫球手常穿的特征。它具有流线型设计，前部有明显的进气格栅和后部的圆形前灯，表明它是一款现代化、运动型的跑车。此外，",
+    "seconds": 2.6
+  }
+}

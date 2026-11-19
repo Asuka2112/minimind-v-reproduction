@@ -1,0 +1,158 @@
+{
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "split": "dev",
+  "seed": 42,
+  "n": 80,
+  "rows": 480,
+  "models": {
+    "base": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.475,
+            "shown_semantic": 0.475,
+            "em": 0.475,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.35,
+              "count": 0.3,
+              "object": 0.75,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.25,
+            "shown_semantic": 0.475,
+            "em": 0.25,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.25,
+              "count": 0.2,
+              "object": 0.05,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.2375,
+            "shown_semantic": 0.2375,
+            "em": 0.2375,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.2,
+              "count": 0.2,
+              "object": 0.05,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.15,
+        "pair_count": 40,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 22.5,
+            "ci95_pp": [
+              11.25,
+              35.0
+            ]
+          },
+          "none": {
+            "delta_pp": 23.75,
+            "ci95_pp": [
+              12.5,
+              35.0
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.475,
+            "shown_semantic": 0.475,
+            "em": 0.475,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.35,
+              "count": 0.3,
+              "object": 0.75,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.25,
+            "shown_semantic": 0.475,
+            "em": 0.25,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.25,
+              "count": 0.2,
+              "object": 0.05,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.2375,
+            "shown_semantic": 0.2375,
+            "em": 0.2375,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.2,
+              "count": 0.2,
+              "object": 0.05,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.15,
+        "pair_count": 40,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 22.5,
+            "ci95_pp": [
+              11.25,
+              35.0
+            ]
+          },
+          "none": {
+            "delta_pp": 23.75,
+            "ci95_pp": [
+              12.5,
+              35.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  "text": {}
+}

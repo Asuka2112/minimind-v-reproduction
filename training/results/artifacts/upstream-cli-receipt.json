@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-02T13:32:20.685061+00:00",
+  "argv": [
+    "/workspace/projects/minimind3-reproduction-20261019/env311/bin/python",
+    "/workspace/projects/minimind-v-official-20261102/src/eval_vlm.py",
+    "--load_from",
+    "model",
+    "--save_dir",
+    "/workspace/projects/minimind-v-official-20261102/runs/sft/out",
+    "--weight",
+    "sft_vlm",
+    "--device",
+    "cuda:0",
+    "--max_new_tokens",
+    "128"
+  ],
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "seconds": 15.062805123627186,
+  "log": "/workspace/projects/minimind-v-official-20261102/logs/upstream-cli.log"
+}

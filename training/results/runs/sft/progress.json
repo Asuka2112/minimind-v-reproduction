@@ -1,0 +1,11 @@
+{
+  "status": "running",
+  "event": "log",
+  "message": "Epoch:[2/2](181532/181532), loss: 1.9340, logits_loss: 1.9340, aux_loss: 0.0000, lr: 0.00000050, epoch_time: 0.0min",
+  "epoch": 2,
+  "epochs": 2,
+  "step": 181532,
+  "steps": 181532,
+  "loss": 1.934,
+  "at": "2026-11-02T13:31:25.734690+00:00"
+}

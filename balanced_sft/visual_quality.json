@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "reviewed_at": "2026-11-17T17:00:04.037953+00:00",
+  "reviewer": "Codex, single visual reviewer",
+  "sample_sha256": "6ca9d566a9ae7b723fbbf5da536f0bfb5c0e42cc1ed532e0ce5aa2572d136cba",
+  "manifest_sha256": "2016d0f564d823aa108b4089a8b725965842ab30ff20a95990e095002416659b",
+  "reviewed": {
+    "train_natural_or_color": 24,
+    "train_count": 18,
+    "train_position": 12,
+    "challenge": 30
+  },
+  "matched_or_clear": 82,
+  "limitations": [
+    {
+      "id": "obj-0093",
+      "note": "Wii game case resembles an illustrated cover; COCO labels the framed rectangle as book."
+    },
+    {
+      "id": "obj-0066",
+      "note": "Human-powered three-wheeler; COCO uses bicycle label for this framed vehicle."
+    }
+  ],
+  "notes": "Count, color and position inspection checked visual labels; no mismatch found in the inspected examples. A and B share the flagged object rows. Curated silhouettes retain some partial occlusion; challenge labels reflect the chosen COCO categories and renderer ground truth.",
+  "draft_rejected": "The initial 84-example visual inspection flagged fragmented donor cutouts and unreliable dominant-color labels. This version uses inspected donor instances and explicit colored shapes.",
+  "selected_instances": {
+    "train": 122,
+    "challenge": 113
+  }
+}

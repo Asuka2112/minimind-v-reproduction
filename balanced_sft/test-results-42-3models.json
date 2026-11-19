@@ -1,0 +1,881 @@
+{
+  "protocol_sha256": "bd1a9d539a06eca8c3f9846a69a63b85aa8d84e32c1a95bba6ade1a94169e305",
+  "split": "test",
+  "seed": 42,
+  "n": 240,
+  "rows": 4320,
+  "models": {
+    "base": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.43333333333333335,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.43333333333333335,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.21666666666666667,
+              "object": 0.65,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.2125,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.2125,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.18333333333333332,
+              "object": 0.03333333333333333,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.22083333333333333,
+            "shown_semantic": 0.22083333333333333,
+            "em": 0.22083333333333333,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.16666666666666666,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 22.083333333333332,
+            "ci95_pp": [
+              14.583333333333334,
+              29.583333333333332
+            ]
+          },
+          "none": {
+            "delta_pp": 21.25,
+            "ci95_pp": [
+              15.0,
+              27.500000000000004
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.43333333333333335,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.43333333333333335,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.36666666666666664,
+              "count": 0.21666666666666667,
+              "object": 0.65,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.2125,
+            "shown_semantic": 0.43333333333333335,
+            "em": 0.2125,
+            "short": 0.9916666666666667,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.13333333333333333,
+              "count": 0.18333333333333332,
+              "object": 0.03333333333333333,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.22083333333333333,
+            "shown_semantic": 0.22083333333333333,
+            "em": 0.22083333333333333,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.16666666666666666,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 22.083333333333332,
+            "ci95_pp": [
+              14.583333333333334,
+              29.583333333333332
+            ]
+          },
+          "none": {
+            "delta_pp": 21.25,
+            "ci95_pp": [
+              15.0,
+              27.500000000000004
+            ]
+          }
+        }
+      }
+    },
+    "control": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.4708333333333333,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.4708333333333333,
+            "short": 0.925,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.45,
+              "count": 0.2,
+              "object": 0.7166666666666667,
+              "position": 0.5166666666666667
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.18333333333333332,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.18333333333333332,
+            "short": 0.925,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.03333333333333333,
+              "count": 0.18333333333333332,
+              "object": 0.03333333333333333,
+              "position": 0.48333333333333334
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.21666666666666667,
+            "shown_semantic": 0.21666666666666667,
+            "em": 0.21666666666666667,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.15,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.225,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 28.749999999999996,
+            "ci95_pp": [
+              20.416666666666668,
+              36.666666666666664
+            ]
+          },
+          "none": {
+            "delta_pp": 25.416666666666664,
+            "ci95_pp": [
+              18.333333333333332,
+              32.083333333333336
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.4708333333333333,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.4708333333333333,
+            "short": 0.925,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.45,
+              "count": 0.2,
+              "object": 0.7166666666666667,
+              "position": 0.5166666666666667
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.18333333333333332,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.18333333333333332,
+            "short": 0.925,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.03333333333333333,
+              "count": 0.18333333333333332,
+              "object": 0.03333333333333333,
+              "position": 0.48333333333333334
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.21666666666666667,
+            "shown_semantic": 0.21666666666666667,
+            "em": 0.21666666666666667,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.15,
+              "count": 0.2,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.225,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 28.749999999999996,
+            "ci95_pp": [
+              20.416666666666668,
+              36.666666666666664
+            ]
+          },
+          "none": {
+            "delta_pp": 25.416666666666664,
+            "ci95_pp": [
+              18.333333333333332,
+              32.083333333333336
+            ]
+          }
+        }
+      }
+    },
+    "targeted": {
+      "192": {
+        "conditions": {
+          "original": {
+            "semantic": 0.4708333333333333,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.4708333333333333,
+            "short": 0.9458333333333333,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.48333333333333334,
+              "count": 0.2,
+              "object": 0.6166666666666667,
+              "position": 0.5833333333333334
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.15416666666666667,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.15416666666666667,
+            "short": 0.9458333333333333,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.016666666666666666,
+              "count": 0.16666666666666666,
+              "object": 0.016666666666666666,
+              "position": 0.4166666666666667
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.17083333333333334,
+            "shown_semantic": 0.17083333333333334,
+            "em": 0.17083333333333334,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.0,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.25,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 31.666666666666664,
+            "ci95_pp": [
+              22.083333333333332,
+              40.416666666666664
+            ]
+          },
+          "none": {
+            "delta_pp": 30.0,
+            "ci95_pp": [
+              22.5,
+              37.083333333333336
+            ]
+          }
+        }
+      },
+      "384": {
+        "conditions": {
+          "original": {
+            "semantic": 0.4708333333333333,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.4708333333333333,
+            "short": 0.9458333333333333,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.48333333333333334,
+              "count": 0.2,
+              "object": 0.6166666666666667,
+              "position": 0.5833333333333334
+            },
+            "semantic_by_subtask": {}
+          },
+          "swapped": {
+            "semantic": 0.15416666666666667,
+            "shown_semantic": 0.4708333333333333,
+            "em": 0.15416666666666667,
+            "short": 0.9458333333333333,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.016666666666666666,
+              "count": 0.16666666666666666,
+              "object": 0.016666666666666666,
+              "position": 0.4166666666666667
+            },
+            "semantic_by_subtask": {}
+          },
+          "none": {
+            "semantic": 0.17083333333333334,
+            "shown_semantic": 0.17083333333333334,
+            "em": 0.17083333333333334,
+            "short": 1.0,
+            "repetition": 0.0,
+            "contradiction": 0.0,
+            "hallucination_proxy": 0.0,
+            "hit_length_cap": 0.0,
+            "semantic_by_task": {
+              "color": 0.16666666666666666,
+              "count": 0.0,
+              "object": 0.016666666666666666,
+              "position": 0.5
+            },
+            "semantic_by_subtask": {}
+          }
+        },
+        "pair_both_correct": 0.25,
+        "pair_count": 120,
+        "original_minus_condition": {
+          "swapped": {
+            "delta_pp": 31.666666666666664,
+            "ci95_pp": [
+              22.083333333333332,
+              40.416666666666664
+            ]
+          },
+          "none": {
+            "delta_pp": 30.0,
+            "ci95_pp": [
+              22.5,
+              37.083333333333336
+            ]
+          }
+        }
+      }
+    }
+  },
+  "text": {
+    "base": {
+      "n": 100,
+      "accuracy": 0.42,
+      "gold_nll_per_token": 5.391646498590708
+    },
+    "control": {
+      "n": 100,
+      "accuracy": 0.44,
+      "gold_nll_per_token": 4.78727103471756
+    },
+    "targeted": {
+      "n": 100,
+      "accuracy": 0.46,
+      "gold_nll_per_token": 5.617703678309917
+    }
+  },
+  "selected_cap": 192,
+  "comparisons": {
+    "targeted_vs_control": {
+      "semantic": {
+        "delta_pp": 0.0,
+        "ci95_pp": [
+          -5.0,
+          5.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 2.5,
+        "ci95_pp": [
+          -5.833333333333333,
+          10.0
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": 2.083333333333333,
+        "ci95_pp": [
+          0.0,
+          4.166666666666666
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "by_task": {
+        "color": {
+          "delta_pp": 3.3333333333333335,
+          "ci95_pp": [
+            -6.666666666666667,
+            13.333333333333334
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "count": {
+          "delta_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "object": {
+          "delta_pp": -10.0,
+          "ci95_pp": [
+            -21.666666666666668,
+            1.6666666666666667
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "position": {
+          "delta_pp": 6.666666666666667,
+          "ci95_pp": [
+            -5.0,
+            18.333333333333332
+          ],
+          "pairs": 30,
+          "questions": 60
+        }
+      },
+      "by_subtask": {}
+    },
+    "targeted_vs_base": {
+      "semantic": {
+        "delta_pp": 3.75,
+        "ci95_pp": [
+          -2.083333333333333,
+          9.166666666666666
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 8.333333333333332,
+        "ci95_pp": [
+          1.6666666666666667,
+          15.833333333333332
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": -4.583333333333333,
+        "ci95_pp": [
+          -7.916666666666666,
+          -1.6666666666666667
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "by_task": {
+        "color": {
+          "delta_pp": 11.666666666666666,
+          "ci95_pp": [
+            -3.3333333333333335,
+            25.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "count": {
+          "delta_pp": -1.6666666666666667,
+          "ci95_pp": [
+            -5.0,
+            0.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "object": {
+          "delta_pp": -3.3333333333333335,
+          "ci95_pp": [
+            -11.666666666666666,
+            5.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "position": {
+          "delta_pp": 8.333333333333332,
+          "ci95_pp": [
+            -3.3333333333333335,
+            20.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        }
+      },
+      "by_subtask": {}
+    },
+    "control_vs_base": {
+      "semantic": {
+        "delta_pp": 3.75,
+        "ci95_pp": [
+          -1.6666666666666667,
+          8.75
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "pair": {
+        "delta_pp": 5.833333333333333,
+        "ci95_pp": [
+          -1.6666666666666667,
+          12.5
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "short": {
+        "delta_pp": -6.666666666666667,
+        "ci95_pp": [
+          -10.416666666666668,
+          -3.3333333333333335
+        ],
+        "pairs": 120,
+        "questions": 240
+      },
+      "by_task": {
+        "color": {
+          "delta_pp": 8.333333333333332,
+          "ci95_pp": [
+            -8.333333333333332,
+            26.666666666666668
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "count": {
+          "delta_pp": -1.6666666666666667,
+          "ci95_pp": [
+            -5.0,
+            0.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "object": {
+          "delta_pp": 6.666666666666667,
+          "ci95_pp": [
+            -3.3333333333333335,
+            16.666666666666664
+          ],
+          "pairs": 30,
+          "questions": 60
+        },
+        "position": {
+          "delta_pp": 1.6666666666666667,
+          "ci95_pp": [
+            0.0,
+            5.0
+          ],
+          "pairs": 30,
+          "questions": 60
+        }
+      },
+      "by_subtask": {}
+    }
+  },
+  "normalized_response_counts": {
+    "base": {
+      "color": {
+        "黑色": 35,
+        "橙色": 18,
+        "红色": 3,
+        "白色": 2,
+        "黄色": 2
+      },
+      "count": {
+        "1": 56,
+        "2": 4
+      },
+      "object": {
+        "餐桌": 3,
+        "人": 5,
+        "火车": 1,
+        "水槽": 3,
+        "床": 1,
+        "公交车": 1,
+        "长颈鹿": 1,
+        "摩托车": 1,
+        "大象": 1,
+        "卡车": 1,
+        "斑马": 1,
+        "猫": 1,
+        "沙发": 1,
+        "电视": 1,
+        "船": 2,
+        "飞机": 1,
+        "汽车": 2,
+        "停车标志": 2,
+        "钟": 1,
+        "熊": 2,
+        "披萨": 1,
+        "笔记本电脑": 1,
+        "鸟": 1,
+        "烤箱": 2,
+        "西兰花": 2,
+        "消防栓": 1,
+        "羊": 1,
+        "红绿灯": 2,
+        "蛋糕": 1,
+        "三明治": 2,
+        "行李箱": 1,
+        "花瓶": 2,
+        "冲浪板": 1,
+        "自行车": 1,
+        "甜甜圈": 1,
+        "(unrecognized)": 2,
+        "手机": 1,
+        "剪刀": 1,
+        "苹果": 1,
+        "微波炉": 1,
+        "泰迪熊": 1,
+        "滑板": 1
+      },
+      "position": {
+        "左边": 58,
+        "右边": 2
+      }
+    },
+    "control": {
+      "color": {
+        "黑色": 8,
+        "(unrecognized)": 18,
+        "红色": 14,
+        "橙色": 3,
+        "白色": 6,
+        "蓝色": 5,
+        "黄色": 6
+      },
+      "count": {
+        "1": 52,
+        "2": 8
+      },
+      "object": {
+        "人": 7,
+        "火车": 2,
+        "马桶": 1,
+        "床": 1,
+        "公交车": 1,
+        "长颈鹿": 1,
+        "狗": 2,
+        "摩托车": 1,
+        "大象": 1,
+        "卡车": 1,
+        "斑马": 1,
+        "猫": 2,
+        "沙发": 1,
+        "电视": 1,
+        "船": 2,
+        "飞机": 1,
+        "汽车": 1,
+        "钟": 1,
+        "牛": 1,
+        "水槽": 2,
+        "笔记本电脑": 1,
+        "熊": 1,
+        "鸟": 1,
+        "餐桌": 3,
+        "碗": 1,
+        "消防栓": 1,
+        "羊": 1,
+        "雨伞": 1,
+        "蛋糕": 1,
+        "三明治": 1,
+        "停车标志": 1,
+        "行李箱": 1,
+        "花瓶": 2,
+        "红绿灯": 1,
+        "冲浪板": 1,
+        "自行车": 1,
+        "西兰花": 1,
+        "甜甜圈": 1,
+        "橙子": 1,
+        "手机": 1,
+        "剪刀": 1,
+        "苹果": 1,
+        "微波炉": 1,
+        "热狗": 1,
+        "瓶子": 1,
+        "滑板": 1
+      },
+      "position": {
+        "左边": 57,
+        "右边": 3
+      }
+    },
+    "targeted": {
+      "color": {
+        "黑色": 9,
+        "橙色": 8,
+        "红色": 12,
+        "白色": 7,
+        "蓝色": 6,
+        "紫色": 1,
+        "(unrecognized)": 13,
+        "黄色": 4
+      },
+      "count": {
+        "1": 41,
+        "2": 14,
+        "3": 2,
+        "0": 3
+      },
+      "object": {
+        "餐桌": 7,
+        "人": 6,
+        "火车": 1,
+        "水槽": 3,
+        "床": 1,
+        "公交车": 2,
+        "长颈鹿": 1,
+        "雨伞": 1,
+        "摩托车": 1,
+        "大象": 2,
+        "卡车": 1,
+        "斑马": 1,
+        "沙发": 1,
+        "船": 2,
+        "飞机": 1,
+        "汽车": 2,
+        "钟": 1,
+        "笔记本电脑": 1,
+        "熊": 1,
+        "鸟": 1,
+        "烤箱": 1,
+        "西兰花": 2,
+        "消防栓": 1,
+        "羊": 1,
+        "红绿灯": 2,
+        "三明治": 1,
+        "停车标志": 1,
+        "行李箱": 1,
+        "花瓶": 1,
+        "冲浪板": 1,
+        "自行车": 1,
+        "盆栽": 1,
+        "甜甜圈": 1,
+        "橙子": 1,
+        "剪刀": 1,
+        "苹果": 1,
+        "冰箱": 1,
+        "热狗": 1,
+        "瓶子": 1,
+        "泰迪熊": 1,
+        "滑板": 1
+      },
+      "position": {
+        "右边": 21,
+        "左边": 39
+      }
+    }
+  },
+  "gates": {
+    "semantic": false,
+    "paired_semantic_ci": false,
+    "count_and_position": false,
+    "both_images_correct": true,
+    "text": true
+  },
+  "all_gates": false,
+  "text_min_delta_pp": 2.0000000000000018
+}

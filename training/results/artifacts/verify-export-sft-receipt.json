@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-02T13:31:52.625991+00:00",
+  "argv": [
+    "/workspace/projects/minimind3-reproduction-20261019/env311/bin/python",
+    "/workspace/projects/minimind-v-official-20261102/training/verify_and_evaluate.py",
+    "--stage",
+    "sft"
+  ],
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "seconds": 14.441198222339153,
+  "log": "/workspace/projects/minimind-v-official-20261102/logs/verify-export-sft.log"
+}

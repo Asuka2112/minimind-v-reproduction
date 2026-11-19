@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-17T14:40:55.503179+08:00",
+  "endpoint": "/chat",
+  "model": "training/results/exports/sft/model.safetensors",
+  "model_sha256": "9013be838396b4fc3aabd33ce56e4c04936e64d196ce22fc0d65f579ca17fc39",
+  "service_status": "已就绪 · sft · MPS · 完全本地推理",
+  "completion_status": "完成 · 5.1 秒 · MPS",
+  "image": "dataset/eval_images/image-04-yellow-car.jpg",
+  "question": "这辆车是什么颜色的？请简短回答。",
+  "answer": "这辆车是黄色的，带有黑色装饰，并具有醒目的红色和银色轮辋设计。它配备了高速行驶，表明其速度非常快。车身侧面有一个大号、细长的白色前大灯和一个圆形的尾灯，为车辆提供足够的光线。车顶是典型的大型SUV，通常在城市环境中使用。汽车看起来是一款经典风格，可能是皮卡特。图片中没有其他物体或人。",
+  "elapsed_seconds": 5.79,
+  "scope": "One real WebUI upload and answer on the local Mac. A functional smoke test, not a benchmark."
+}

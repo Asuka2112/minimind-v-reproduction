@@ -1,0 +1,18 @@
+{
+  "device": "mps",
+  "total_parameters": 159647232,
+  "checks": {
+    "image_placeholder_count": 64,
+    "different_images_change_logits": 1.7083619832992554,
+    "missing_image_error_propagates": true,
+    "context_limit_error_propagates": true,
+    "cancellation_releases_model": true,
+    "generation_recovers_after_errors_and_cancel": true
+  },
+  "example": {
+    "image": "image-04-yellow-car.jpg",
+    "question": "这辆车是什么颜色的？",
+    "answer": "图片中的黄色汽车是明亮的黄色，与周围环境形成鲜明对比。这种颜色通常用于在各种环境中找到，比如商用车、公共交通或休闲车辆。它也可以在城市环境中找到，因为背景中有建筑物和晴朗的天空",
+    "seconds": 2.39
+  }
+}

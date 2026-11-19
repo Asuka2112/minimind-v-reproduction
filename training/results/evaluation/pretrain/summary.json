@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-01T19:23:14.260872+00:00",
+  "status": "complete",
+  "label": "pretrain",
+  "weight_sha256": "f4d6ddf6905aac26d0f8480a786b3994c39a6e4245d39cb7b41249a55bf82df9",
+  "examples": 6,
+  "nonempty": 6,
+  "hit_length_limit": 6,
+  "decode": {
+    "decode": "greedy",
+    "max_new_tokens": 128,
+    "images": "upstream dataset/eval_images (6 images)",
+    "type": "qualitative upstream reproduction; not a held-out benchmark"
+  },
+  "scope": "Upstream six-image qualitative demonstration only. No human labels, no accuracy score, no held-out generalization claim."
+}

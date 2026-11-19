@@ -1,0 +1,10 @@
+{
+  "model": "reproduced",
+  "started_at": "2026-11-17T08:24:54.976050+00:00",
+  "finished_at": "2026-11-17T08:36:46.257608+00:00",
+  "rows": 912,
+  "sha256": "20621bccbbb576bdf83d5c188c7d1e8f2a12318c991b4e407204489a795020f6",
+  "gpu": "2",
+  "protocol_sha256": "11bf4afb6968eb66ce1c27778bcf0e5ffa43139a7af3a10e0b2d6b9415736d41",
+  "checkpoint_sha256": "37d2450149c1c9d6f72d03780cd71abb04174352ca02f01bfb4a8843cc0892c4"
+}
