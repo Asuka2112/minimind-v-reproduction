@@ -1,0 +1,6 @@
+{"at": "2026-11-01T17:50:53.081241+00:00", "event": "log", "message": "Model Params: 65.09M"}
+{"at": "2026-11-01T17:50:53.081793+00:00", "event": "log", "message": "Trainable Params: 15.932M"}
+{"at": "2026-11-01T17:50:55.553029+00:00", "event": "log", "message": "Epoch:[1/2](1/1), loss: 2.7264, logits_loss: 2.7264, aux_loss: 0.0000, lr: 0.00000275, epoch_time: 0.0min", "epoch": 1, "epochs": 2, "step": 1, "steps": 1, "loss": 2.7264}
+{"at": "2026-11-01T17:50:57.025228+00:00", "event": "checkpoint", "epoch": 0, "step": 1}
+{"at": "2026-11-01T17:50:57.234199+00:00", "event": "log", "message": "Epoch:[2/2](1/1), loss: 2.6809, logits_loss: 2.6809, aux_loss: 0.0000, lr: 0.00000050, epoch_time: 0.0min", "epoch": 2, "epochs": 2, "step": 1, "steps": 1, "loss": 2.6809}
+{"at": "2026-11-01T17:51:04.894782+00:00", "event": "checkpoint", "epoch": 1, "step": 1}

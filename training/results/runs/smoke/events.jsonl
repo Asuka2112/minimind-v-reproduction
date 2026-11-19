@@ -1,0 +1,18 @@
+{"at": "2026-11-01T17:48:36.265612+00:00", "event": "log", "message": "Model Params: 65.09M"}
+{"at": "2026-11-01T17:48:36.266290+00:00", "event": "log", "message": "Trainable Params: 15.932M"}
+{"at": "2026-11-01T17:48:37.889346+00:00", "event": "log", "message": "Epoch:[1/2](1/4), loss: 2.8238, logits_loss: 2.8238, aux_loss: 0.0000, lr: 0.00000483, epoch_time: 0.0min", "epoch": 1, "epochs": 2, "step": 1, "steps": 4, "loss": 2.8238}
+{"at": "2026-11-01T17:48:37.981458+00:00", "event": "log", "message": "Epoch:[1/2](2/4), loss: 2.6540, logits_loss: 2.6540, aux_loss: 0.0000, lr: 0.00000434, epoch_time: 0.0min", "epoch": 1, "epochs": 2, "step": 2, "steps": 4, "loss": 2.654}
+{"at": "2026-11-01T17:48:39.467619+00:00", "event": "checkpoint", "epoch": 0, "step": 2}
+{"at": "2026-11-01T17:48:45.118179+00:00", "event": "resume_loaded", "epoch": 0, "step": 2}
+{"at": "2026-11-01T17:48:46.368145+00:00", "event": "log", "message": "Model Params: 65.09M"}
+{"at": "2026-11-01T17:48:46.368791+00:00", "event": "log", "message": "Trainable Params: 15.932M"}
+{"at": "2026-11-01T17:48:47.270682+00:00", "event": "log", "message": "Epoch [1/2]: 跳过前2个step，从step 3开始"}
+{"at": "2026-11-01T17:48:47.770218+00:00", "event": "log", "message": "Epoch:[1/2](3/4), loss: 2.7909, logits_loss: 2.7909, aux_loss: 0.0000, lr: 0.00000361, epoch_time: 0.0min", "epoch": 1, "epochs": 2, "step": 3, "steps": 4, "loss": 2.7909}
+{"at": "2026-11-01T17:48:48.126260+00:00", "event": "log", "message": "Epoch:[1/2](4/4), loss: 2.4534, logits_loss: 2.4534, aux_loss: 0.0000, lr: 0.00000275, epoch_time: 0.0min", "epoch": 1, "epochs": 2, "step": 4, "steps": 4, "loss": 2.4534}
+{"at": "2026-11-01T17:49:01.610463+00:00", "event": "checkpoint", "epoch": 0, "step": 4}
+{"at": "2026-11-01T17:49:01.677763+00:00", "event": "log", "message": "Epoch:[2/2](1/4), loss: 2.4733, logits_loss: 2.4733, aux_loss: 0.0000, lr: 0.00000189, epoch_time: 0.0min", "epoch": 2, "epochs": 2, "step": 1, "steps": 4, "loss": 2.4733}
+{"at": "2026-11-01T17:49:01.751345+00:00", "event": "log", "message": "Epoch:[2/2](2/4), loss: 2.8126, logits_loss: 2.8126, aux_loss: 0.0000, lr: 0.00000116, epoch_time: 0.0min", "epoch": 2, "epochs": 2, "step": 2, "steps": 4, "loss": 2.8126}
+{"at": "2026-11-01T17:49:09.890387+00:00", "event": "checkpoint", "epoch": 1, "step": 2}
+{"at": "2026-11-01T17:49:09.987945+00:00", "event": "log", "message": "Epoch:[2/2](3/4), loss: 2.6491, logits_loss: 2.6491, aux_loss: 0.0000, lr: 0.00000067, epoch_time: 0.0min", "epoch": 2, "epochs": 2, "step": 3, "steps": 4, "loss": 2.6491}
+{"at": "2026-11-01T17:49:10.086498+00:00", "event": "log", "message": "Epoch:[2/2](4/4), loss: 2.2343, logits_loss: 2.2343, aux_loss: 0.0000, lr: 0.00000050, epoch_time: 0.0min", "epoch": 2, "epochs": 2, "step": 4, "steps": 4, "loss": 2.2343}
+{"at": "2026-11-01T17:49:18.399393+00:00", "event": "checkpoint", "epoch": 1, "step": 4}
